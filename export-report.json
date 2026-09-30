@@ -1,0 +1,13 @@
+{
+  "source": "https://oksanarusinova.framer.website/",
+  "platform": "framer",
+  "captureMode": "html-with-runtime",
+  "generatedAt": "2026-09-30T03:04:07.884Z",
+  "assets": 110,
+  "failedAssets": [],
+  "subpages": 0,
+  "visualValidation": "not-run",
+  "limitations": [
+    "Server-side accounts, payments, search and form processing are not exported."
+  ]
+}
