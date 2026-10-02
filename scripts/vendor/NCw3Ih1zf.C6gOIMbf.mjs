@@ -1,0 +1,387 @@
+import { t as e } from "./rolldown-runtime.Dh6celcD.mjs";
+import {
+  D as t,
+  F as n,
+  O as r,
+  P as i,
+  R as a,
+  S as o,
+  c as s,
+  m as c,
+  s as l,
+  u,
+} from "./react.hMW2PJqY.mjs";
+import { V as d, c as f, o as p, r as m } from "./motion.CaZjHSpz.mjs";
+import {
+  G as h,
+  I as g,
+  K as _,
+  Qt as v,
+  T as y,
+  Z as b,
+  _n as x,
+  c as S,
+  ct as C,
+  gn as w,
+  ht as T,
+  o as E,
+  ot as D,
+  z as O,
+  zt as k,
+} from "./framer.CuDPj9y9.mjs";
+import { i as A, n as j, r as M, t as N } from "./opnE6P6z1.D-hpdzOY.mjs";
+import { i as P, n as F, r as I, t as L } from "./uT_bT0pMG.Dx8mPC7G.mjs";
+import { n as R, t as z } from "./Embed.Ci0BUP3S.mjs";
+var B, V, H, U, W, G, K, q, J, Y, X;
+e(() => {
+  (s(),
+    T(),
+    m(),
+    r(),
+    R(),
+    A(),
+    P(),
+    (B = D(z)),
+    (V = `framer-g0dVM`),
+    (H = { d36TH4Fc5: `framer-v-oocjj0` }),
+    (U = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
+    (W = (e) => (Array.isArray(e) ? e.length > 0 : e != null && e !== ``)),
+    (G = ({ value: e, children: t }) => {
+      let r = i(f),
+        a = e ?? r.transition,
+        o = n(() => ({ ...r, transition: a }), [JSON.stringify(a)]);
+      return l(f.Provider, { value: o, children: t });
+    }),
+    (K = d.create(a)),
+    (q = ({
+      demoLink: e,
+      height: t,
+      id: n,
+      linkText: r,
+      text: i,
+      uRL: a,
+      width: o,
+      zoom: s,
+      ...c
+    }) => ({
+      ...c,
+      gn9668gkD: r ?? c.gn9668gkD ?? `this link`,
+      m3ilfc3BU: s ?? c.m3ilfc3BU ?? 0.6,
+      pYizQnanZ: e ?? c.pYizQnanZ,
+      UOMVR4JC7: i ?? c.UOMVR4JC7 ?? `Hover to try the live demo or open`,
+      V9yOC8JlD: a ?? c.V9yOC8JlD ?? `https://dark-favorites-952985.framer.app/`,
+    })),
+    (J = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+    (Y = x(
+      c(function (e, n) {
+        let r = o(null),
+          i = n ?? r,
+          s = t(),
+          { activeLocale: c, contentLocale: f, setLocale: m } = v();
+        k();
+        let {
+            style: h,
+            className: _,
+            layoutId: x,
+            variant: S,
+            V9yOC8JlD: C,
+            m3ilfc3BU: T,
+            pYizQnanZ: D,
+            UOMVR4JC7: A,
+            gn9668gkD: j,
+            ...M
+          } = q(e),
+          {
+            baseVariant: P,
+            classNames: F,
+            clearLoadingGesture: I,
+            gestureHandlers: R,
+            gestureVariant: B,
+            isLoading: Y,
+            setGestureState: X,
+            setVariant: ee,
+            variants: Z,
+          } = w({ defaultVariant: `d36TH4Fc5`, ref: i, variant: S, variantClassNames: H }),
+          Q = J(e, Z),
+          $ = b(V, N, L),
+          te = W(D),
+          ne = W(A);
+        return l(p, {
+          id: x ?? s,
+          children: l(K, {
+            animate: Z,
+            initial: !1,
+            children: l(G, {
+              value: U,
+              children: u(d.div, {
+                ...M,
+                ...R,
+                className: b($, `framer-oocjj0`, _, F),
+                "data-framer-name": `Variant 1`,
+                layoutDependency: Q,
+                layoutId: `d36TH4Fc5`,
+                ref: i,
+                style: { ...h },
+                children: [
+                  l(d.div, {
+                    className: `framer-1ofqttn`,
+                    "data-border": !0,
+                    layoutDependency: Q,
+                    layoutId: `nOCqPGF8F`,
+                    style: {
+                      "--border-bottom-width": `1px`,
+                      "--border-color": `rgba(255, 255, 255, 0.1)`,
+                      "--border-left-width": `1px`,
+                      "--border-right-width": `1px`,
+                      "--border-style": `solid`,
+                      "--border-top-width": `1px`,
+                      borderBottomLeftRadius: 18,
+                      borderBottomRightRadius: 18,
+                      borderTopLeftRadius: 18,
+                      borderTopRightRadius: 18,
+                    },
+                    children: l(E, {
+                      children: l(O, {
+                        className: `framer-17e1wpk-container`,
+                        isAuthoredByUser: !0,
+                        isModuleExternal: !0,
+                        layoutDependency: Q,
+                        layoutId: `dng8ml_QZ-container`,
+                        nodeId: `dng8ml_QZ`,
+                        rendersWithMotion: !0,
+                        scopeId: `NCw3Ih1zf`,
+                        children: l(z, {
+                          height: `100%`,
+                          html: ``,
+                          id: `dng8ml_QZ`,
+                          layoutId: `dng8ml_QZ`,
+                          radius: `0px`,
+                          style: { height: `100%`, width: `100%` },
+                          type: `url`,
+                          url: C,
+                          width: `100%`,
+                          zoom: T,
+                        }),
+                      }),
+                    }),
+                  }),
+                  te !== !1 &&
+                    u(d.div, {
+                      className: `framer-1d5p5sx`,
+                      layoutDependency: Q,
+                      layoutId: `eTwNMGIym`,
+                      children: [
+                        ne !== !1 &&
+                          l(g, {
+                            __fromCanvasComponent: !0,
+                            children: l(a, {
+                              children: l(d.p, {
+                                className: `framer-styles-preset-bbixn5`,
+                                "data-styles-preset": `opnE6P6z1`,
+                                dir: `auto`,
+                                children: `Hover to try the live demo or open`,
+                              }),
+                            }),
+                            className: `framer-iyxrse`,
+                            fonts: [`Inter`],
+                            layoutDependency: Q,
+                            layoutId: `NsViFBFwU`,
+                            style: {
+                              "--framer-link-text-color": `rgb(0, 153, 255)`,
+                              "--framer-link-text-decoration": `underline`,
+                            },
+                            text: A,
+                            verticalAlignment: `top`,
+                            withExternalLayout: !0,
+                          }),
+                        l(g, {
+                          __fromCanvasComponent: !0,
+                          children: l(a, {
+                            children: l(d.p, {
+                              className: `framer-styles-preset-bbixn5`,
+                              "data-styles-preset": `opnE6P6z1`,
+                              dir: `auto`,
+                              children: l(y, {
+                                href: D,
+                                motionChild: !0,
+                                nodeId: `ELx032zOS`,
+                                openInNewTab: !0,
+                                relValues: [],
+                                scopeId: `NCw3Ih1zf`,
+                                smoothScroll: !1,
+                                children: l(d.a, {
+                                  className: `framer-styles-preset-8rmpkv`,
+                                  "data-styles-preset": `uT_bT0pMG`,
+                                  children: `this link`,
+                                }),
+                              }),
+                            }),
+                          }),
+                          className: `framer-9nsiyg`,
+                          fonts: [`Inter`],
+                          layoutDependency: Q,
+                          layoutId: `ELx032zOS`,
+                          text: j,
+                          verticalAlignment: `top`,
+                          withExternalLayout: !0,
+                        }),
+                      ],
+                    }),
+                ],
+              }),
+            }),
+          }),
+        });
+      }),
+      [
+        `.framer-g0dVM.framer-9q2jlb, .framer-g0dVM .framer-9q2jlb { display: block; }`,
+        `.framer-g0dVM.framer-oocjj0 { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: var(--overflow-clip-fallback, clip); padding: 20px 0px 20px 0px; position: relative; width: 700px; }`,
+        `.framer-g0dVM .framer-1ofqttn { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 540px; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; will-change: var(--framer-will-change-override, transform); }`,
+        `.framer-g0dVM .framer-17e1wpk-container { flex: 1 0 0px; height: 100%; position: relative; width: 1px; }`,
+        `.framer-g0dVM .framer-1d5p5sx { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 5px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: min-content; }`,
+        `.framer-g0dVM .framer-iyxrse, .framer-g0dVM .framer-9nsiyg { --framer-text-wrap-override: none; flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
+        ...j,
+        ...F,
+        `.framer-g0dVM[data-border="true"]::after, .framer-g0dVM [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; corner-shape: inherit; pointer-events: none; }`,
+      ],
+      `framer-g0dVM`
+    )),
+    (Y.displayName = `Blog/Blog Embed`),
+    (Y.defaultProps = { height: 580, width: 700 }),
+    _(Y, {
+      V9yOC8JlD: {
+        defaultValue: `https://dark-favorites-952985.framer.app/`,
+        title: `URL`,
+        type: S.String,
+      },
+      onV9yOC8JlDChange: { changes: `V9yOC8JlD`, type: S.ChangeHandler },
+      m3ilfc3BU: {
+        defaultValue: 0.6,
+        displayStepper: !0,
+        max: 1,
+        min: 0.1,
+        step: 0.1,
+        title: `Zoom`,
+        type: S.Number,
+      },
+      onm3ilfc3BUChange: { changes: `m3ilfc3BU`, type: S.ChangeHandler },
+      pYizQnanZ: { title: `Demo Link`, type: S.Link },
+      UOMVR4JC7: {
+        defaultValue: `Hover to try the live demo or open`,
+        displayTextArea: !1,
+        title: `Text`,
+        type: S.String,
+      },
+      onUOMVR4JC7Change: { changes: `UOMVR4JC7`, type: S.ChangeHandler },
+      gn9668gkD: {
+        defaultValue: `this link`,
+        displayTextArea: !1,
+        title: `Link Text`,
+        type: S.String,
+      },
+      ongn9668gkDChange: { changes: `gn9668gkD`, type: S.ChangeHandler },
+    }),
+    h(
+      Y,
+      [
+        {
+          explicitInter: !0,
+          fonts: [
+            {
+              cssFamilyName: `Inter`,
+              source: `framer`,
+              style: `normal`,
+              uiFamilyName: `Inter`,
+              unicodeRange: `U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F`,
+              url: `../../assets/fonts/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2`,
+              weight: `400`,
+            },
+            {
+              cssFamilyName: `Inter`,
+              source: `framer`,
+              style: `normal`,
+              uiFamilyName: `Inter`,
+              unicodeRange: `U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116`,
+              url: `../../assets/fonts/EOr0mi4hNtlgWNn9if640EZzXCo.woff2`,
+              weight: `400`,
+            },
+            {
+              cssFamilyName: `Inter`,
+              source: `framer`,
+              style: `normal`,
+              uiFamilyName: `Inter`,
+              unicodeRange: `U+1F00-1FFF`,
+              url: `../../assets/fonts/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2`,
+              weight: `400`,
+            },
+            {
+              cssFamilyName: `Inter`,
+              source: `framer`,
+              style: `normal`,
+              uiFamilyName: `Inter`,
+              unicodeRange: `U+0370-03FF`,
+              url: `../../assets/fonts/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2`,
+              weight: `400`,
+            },
+            {
+              cssFamilyName: `Inter`,
+              source: `framer`,
+              style: `normal`,
+              uiFamilyName: `Inter`,
+              unicodeRange: `U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF`,
+              url: `../../assets/fonts/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2`,
+              weight: `400`,
+            },
+            {
+              cssFamilyName: `Inter`,
+              source: `framer`,
+              style: `normal`,
+              uiFamilyName: `Inter`,
+              unicodeRange: `U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD`,
+              url: `../../assets/fonts/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2`,
+              weight: `400`,
+            },
+            {
+              cssFamilyName: `Inter`,
+              source: `framer`,
+              style: `normal`,
+              uiFamilyName: `Inter`,
+              unicodeRange: `U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB`,
+              url: `../../assets/fonts/b6Y37FthZeALduNqHicBT6FutY.woff2`,
+              weight: `400`,
+            },
+          ],
+        },
+        ...B,
+        ...C(M),
+        ...C(I),
+      ],
+      { supportsExplicitInterCodegen: !0 }
+    ),
+    (X = {
+      exports: {
+        default: {
+          type: `reactComponent`,
+          name: `FramerNCw3Ih1zf`,
+          slots: [],
+          annotations: {
+            framerCanvasComponentVariantDetails: `{"propertyName":"variant","data":{"default":{"layout":["fixed","auto"]}}}`,
+            framerResolvesOwnDefaults: `true`,
+            framerIntrinsicHeight: `580`,
+            framerComponentViewportWidth: `true`,
+            framerIntrinsicWidth: `700`,
+            framerColorSyntax: `true`,
+            framerAutoSizeImages: `true`,
+            framerContractVersion: `1`,
+            framerImmutableVariables: `true`,
+            framerVariables: `{"V9yOC8JlD":"uRL","m3ilfc3BU":"zoom","pYizQnanZ":"demoLink","UOMVR4JC7":"text","gn9668gkD":"linkText"}`,
+            framerDisplayContentsDiv: `false`,
+          },
+        },
+        Props: { type: `tsType`, annotations: { framerContractVersion: `1` } },
+        __FramerMetadata__: { type: `variable` },
+      },
+    }));
+})();
+export { X as __FramerMetadata__, Y as default };
+//# sourceMappingURL=NCw3Ih1zf.C6gOIMbf.mjs.map
