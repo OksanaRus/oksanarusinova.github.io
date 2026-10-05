@@ -1,50 +1,50 @@
-[09:48:56] [info] Source   : [4mhttps://oksanarusinova.framer.website/[24m
-[09:48:56] [info] Output   : [38;2;250;178;131m/Users/oksanarusinova/Desktop/framer-clean-output[39m
-[09:48:56] [info] Platform : [38;2;250;178;131mFramer[39m
-[09:48:56] [info] DPR      : [38;2;250;178;131m1[39m
-[09:48:56] [info] Subpages : [38;2;128;128;128mdisabled (pass --subpages to crawl the whole site)[39m
-[09:48:56] [log] Output directory structure created
-[09:48:56] [log] Fetching SSR HTML from https://oksanarusinova.framer.website/
-[09:48:57] [ok] SSR HTML fetched (196.0 KB)
-[09:48:57] [log] Launching headless Chromium...
-[09:49:00] [ok] Chromium launched
-[09:49:00] [log] Stealth hardening applied (Chrome 148.0.7778.97)
-[09:49:00] [log] Viewport set to 1440x900 at 1x DPR
-[09:49:00] [log] Blocking 8 tracking domains:
-[09:49:00] [log]   - sentry.io
-[09:49:00] [log]   - www.googletagmanager.com
-[09:49:00] [log]   - connect.facebook.net
-[09:49:00] [log]   - stats.g.doubleclick.net
-[09:49:00] [log]   - google-analytics.com
-[09:49:00] [log]   - events.framer.com
-[09:49:00] [log]   - api.framer.com
-[09:49:00] [log]   - collect.frameranalytics.com
-[09:49:00] [log] Network interception enabled
-[09:49:00] [info] Navigating to https://oksanarusinova.framer.website/
-[09:49:02] [ok] Document loaded; waiting for page content and resources
-[09:49:02] [log] Intercepted 0 resources, blocked 0 tracking requests, skipped 0 platform assets
-[09:49:02] [log] Checking DOM-based platform detection...
-[09:49:02] [log] Hydration content found: #main
-[09:49:12] [log] Waiting for font layout and response bodies
-[09:49:12] [log] Resources settled
-[09:49:12] [log] Captured HTML and CSSOM (201.0 KB)
-[09:49:12] [ok] Captured 35 network resources total
-[09:49:12] [log]   CSS: 0 | JS: 22 | Images: 7 | Fonts: 6
-[09:49:12] [log] Browser closed
-[09:49:12] [ok] Queued 43 resource(s) declared in HTML but never requested
-[09:49:12] [log] Starting download of 78 assets and their CSS/HTML dependencies
-[09:49:15] [ok] Downloads complete: 78 succeeded, 35 from cache
-[09:49:31] [ok] Lazy-loaded chunks resolved: 39
-[09:49:31] [log] Starting HTML post-processing...
-[09:49:31] [log] HTML size: 201.0 KB
-[09:49:31] [ok] Index HTML pipeline complete
-[09:49:33] [log] Rewrote URLs in 30 JS/CSS files
-[09:49:33] [warn] Rewrite pattern matched nothing: /\(function\(\)\{[\w$]+&&[\w$]+\(\(\)=>\{[\s\S]{0,200}?__framer-badge-container[\s\S]{0,300}?\}\)\}\)\(\)/g
-[09:49:33] [ok] Captured asset URLs rewritten to local paths
-[09:49:40] [ok] Formatted 61/61 JS/MJS files
-[09:49:40] [log] Writing index.html (220.7 KB)...
-[09:49:40] [ok] index.html written
-[09:49:40] [log] serve.js written
-[09:49:40] [log] package.json written for serve.js
-[09:49:40] [ok] Output build complete
-[09:49:40] [ok] Export complete!
+[09:57:41] [info] Source   : [4mhttps://oksanarusinova.framer.website/[24m
+[09:57:41] [info] Output   : [38;2;250;178;131m/Users/oksanarusinova/Desktop/framer-clean-output[39m
+[09:57:41] [info] Platform : [38;2;250;178;131mFramer[39m
+[09:57:41] [info] DPR      : [38;2;250;178;131m1[39m
+[09:57:41] [info] Subpages : [38;2;128;128;128mdisabled (pass --subpages to crawl the whole site)[39m
+[09:57:41] [log] Output directory structure created
+[09:57:41] [log] Fetching SSR HTML from https://oksanarusinova.framer.website/
+[09:57:42] [ok] SSR HTML fetched (196.0 KB)
+[09:57:42] [log] Launching headless Chromium...
+[09:57:46] [ok] Chromium launched
+[09:57:46] [log] Stealth hardening applied (Chrome 148.0.7778.97)
+[09:57:46] [log] Viewport set to 1440x900 at 1x DPR
+[09:57:46] [log] Blocking 8 tracking domains:
+[09:57:46] [log]   - sentry.io
+[09:57:46] [log]   - www.googletagmanager.com
+[09:57:46] [log]   - connect.facebook.net
+[09:57:46] [log]   - stats.g.doubleclick.net
+[09:57:46] [log]   - google-analytics.com
+[09:57:46] [log]   - events.framer.com
+[09:57:46] [log]   - api.framer.com
+[09:57:46] [log]   - collect.frameranalytics.com
+[09:57:46] [log] Network interception enabled
+[09:57:46] [info] Navigating to https://oksanarusinova.framer.website/
+[09:57:47] [ok] Document loaded; waiting for page content and resources
+[09:57:47] [log] Intercepted 0 resources, blocked 0 tracking requests, skipped 0 platform assets
+[09:57:47] [log] Checking DOM-based platform detection...
+[09:57:48] [log] Hydration content found: #main
+[09:57:57] [log] Waiting for font layout and response bodies
+[09:57:57] [log] Resources settled
+[09:57:57] [log] Captured HTML and CSSOM (201.0 KB)
+[09:57:57] [ok] Captured 35 network resources total
+[09:57:57] [log]   CSS: 0 | JS: 22 | Images: 7 | Fonts: 6
+[09:57:57] [log] Browser closed
+[09:57:57] [ok] Queued 43 resource(s) declared in HTML but never requested
+[09:57:57] [log] Starting download of 78 assets and their CSS/HTML dependencies
+[09:58:00] [ok] Downloads complete: 78 succeeded, 35 from cache
+[09:58:13] [ok] Lazy-loaded chunks resolved: 39
+[09:58:13] [log] Starting HTML post-processing...
+[09:58:13] [log] HTML size: 201.0 KB
+[09:58:13] [ok] Index HTML pipeline complete
+[09:58:15] [log] Rewrote URLs in 30 JS/CSS files
+[09:58:15] [warn] Rewrite pattern matched nothing: /\(function\(\)\{[\w$]+&&[\w$]+\(\(\)=>\{[\s\S]{0,200}?__framer-badge-container[\s\S]{0,300}?\}\)\}\)\(\)/g
+[09:58:15] [ok] Captured asset URLs rewritten to local paths
+[09:58:20] [ok] Formatted 63/63 JS/MJS files
+[09:58:20] [log] Writing index.html (220.7 KB)...
+[09:58:20] [ok] index.html written
+[09:58:20] [log] serve.js written
+[09:58:20] [log] package.json written for serve.js
+[09:58:20] [ok] Output build complete
+[09:58:20] [ok] Export complete!
