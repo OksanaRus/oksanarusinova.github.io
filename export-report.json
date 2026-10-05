@@ -2,12 +2,18 @@
   "source": "https://oksanarusinova.framer.website/",
   "platform": "framer",
   "captureMode": "html-with-runtime",
-  "generatedAt": "2026-10-05T09:58:20.547Z",
-  "assets": 117,
-  "failedAssets": [],
-  "subpages": 0,
+  "generatedAt": "2026-10-05T10:32:39.091Z",
+  "assets": 280,
+  "failedAssets": [
+    {
+      "url": "https://framerusercontent.com/images/4hgV6GJDwt9ZETiLnlYoGjbk8Oc.png?width=14342&height=6236",
+      "message": "Asset download timeout"
+    }
+  ],
+  "subpages": 15,
   "visualValidation": "not-run",
   "limitations": [
-    "Server-side accounts, payments, search and form processing are not exported."
+    "Server-side accounts, payments, search and form processing are not exported.",
+    "Some assets could not be saved; remote fallback URLs may require network access."
   ]
 }
