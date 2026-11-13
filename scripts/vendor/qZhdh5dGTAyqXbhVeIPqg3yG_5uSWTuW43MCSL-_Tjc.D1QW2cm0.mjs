@@ -1,0 +1,2579 @@
+import { t as e } from "./rolldown-runtime.Bi-D_2cA.mjs";
+import {
+  A as t,
+  C as n,
+  N as r,
+  S as ee,
+  k as te,
+  l as i,
+  o as a,
+  p as o,
+  s,
+  y as c,
+} from "./react.B4lOa1lM.mjs";
+import { S as l, a as ne, r as re, t as u } from "./motion.CcP9hEf_.mjs";
+import {
+  $ as ie,
+  A as d,
+  F as f,
+  O as p,
+  Q as ae,
+  S as m,
+  W as h,
+  X as oe,
+  _ as g,
+  a as se,
+  b as ce,
+  ct as le,
+  f as _,
+  h as v,
+  it as y,
+  k as b,
+  l as x,
+  lt as S,
+  m as C,
+  n as w,
+  nt as ue,
+  rt as de,
+  s as T,
+  t as E,
+  tt as D,
+} from "./framer.DkH54azp.mjs";
+import {
+  a as O,
+  c as fe,
+  d as pe,
+  f as k,
+  i as A,
+  l as j,
+  m as M,
+  n as N,
+  o as P,
+  p as F,
+  r as me,
+  s as he,
+  t as I,
+  u as L,
+} from "./A9Wi3tJm7.DxAh4jTX.mjs";
+import {
+  a as ge,
+  c as R,
+  i as _e,
+  n as z,
+  o as ve,
+  r as ye,
+  s as be,
+  t as xe,
+} from "./U3NyadGC3.D4-KMvY1.mjs";
+import { i as Se, n as Ce, r as we, t as Te } from "./rHJW28QP9.DPhSi4SB.mjs";
+import { n as Ee, t as B } from "./Video.B2s1Q6fJ.mjs";
+import { n as De, t as Oe } from "./Auth.CVK5H7vu.mjs";
+import { n as ke, r as Ae } from "./wcki3OcY_.n9CGHWoh.mjs";
+var V, H, U, W, G, K, q, J, Y, X, Z, je, Q, Me, Ne, $, Pe;
+function Fe() {
+  return (Fe = e(() => {
+    (s(),
+      f(),
+      u(),
+      n(),
+      Ee(),
+      N(),
+      Oe(),
+      M(),
+      L(),
+      Se(),
+      R(),
+      _e(),
+      P(),
+      ke(),
+      (V = p(I)),
+      (H = p(B)),
+      (U = S(l.div, { nodeId: `VrLFz36Kh`, override: De, scopeId: `wcki3OcY_` })),
+      (W = {
+        CpJoOsDxW: `(min-width: 1240px) and (max-width: 1439.98px)`,
+        DEJr44GVb: `(min-width: 810px) and (max-width: 1239.98px)`,
+        P1J7WvMcG: `(max-width: 809.98px)`,
+        VrLFz36Kh: `(min-width: 1440px)`,
+      }),
+      (G = () => typeof document < `u`),
+      (K = []),
+      (q = `framer-ZcVc7`),
+      (J = {
+        CpJoOsDxW: `framer-v-1nirddn`,
+        DEJr44GVb: `framer-v-y7clc5`,
+        P1J7WvMcG: `framer-v-3l7bnq`,
+        VrLFz36Kh: `framer-v-nt5dje`,
+      }),
+      (Y = (e, t, n) => (e && t ? `position` : n)),
+      (X = (...e) => {
+        for (let t of e) if (t && typeof t == `string`) return t;
+      }),
+      (Z = { Desktop: `VrLFz36Kh`, Laptop: `CpJoOsDxW`, Phone: `P1J7WvMcG`, Tablet: `DEJr44GVb` }),
+      (je = ({ value: e }) =>
+        D()
+          ? null
+          : /*#__PURE__*/ a(`style`, {
+              dangerouslySetInnerHTML: { __html: e },
+              "data-framer-html-style": ``,
+            })),
+      (Q = ({ height: e, id: t, width: n, ...r }) => ({
+        ...r,
+        variant: Z[r.variant] ?? r.variant ?? `VrLFz36Kh`,
+      })),
+      (Me = /*#__PURE__*/ o(function (e, n) {
+        let o = c(null),
+          s = n ?? o,
+          u = ee(),
+          { activeLocale: f, setLocale: p } = ue(),
+          m = oe(),
+          { style: h, className: g, layoutId: le, variant: b, ...S } = Q(e),
+          D = t(() => Ae({}, f), [f]);
+        de(D);
+        let [O, fe] = ie(b, W, !1),
+          k = ce(q, xe, Te, me, he, pe, ge),
+          A = te(se)?.isLayoutTemplate,
+          j = !!te(ne)?.transition?.layout,
+          M = Y(A, j),
+          N = () => !G() || ![`DEJr44GVb`, `P1J7WvMcG`].includes(O),
+          P = y(`qGiz83ySR`),
+          F = c(null),
+          L = y(`E_6yIy1Lz`),
+          R = c(null),
+          _e = () => !G() || O === `P1J7WvMcG`,
+          z = () => !G() || O === `DEJr44GVb`;
+        return (
+          ae({}),
+          /*#__PURE__*/ a(se.Provider, {
+            value: {
+              activeVariantId: O,
+              humanReadableVariantMap: Z,
+              primaryVariantId: `VrLFz36Kh`,
+              variantClassNames: J,
+            },
+            children: /*#__PURE__*/ i(re, {
+              id: le ?? u,
+              children: [
+                /*#__PURE__*/ a(je, { value: `html body { background: rgb(253, 251, 248); }` }),
+                /*#__PURE__*/ i(U, {
+                  ...S,
+                  className: ce(k, `framer-nt5dje`, g),
+                  ref: s,
+                  style: { ...h },
+                  children: [
+                    /*#__PURE__*/ a(_, {
+                      breakpoint: O,
+                      overrides: {
+                        DEJr44GVb: {
+                          height: 800,
+                          width: m?.width || `100vw`,
+                          y: (m?.y || 0) + 0 + 0,
+                        },
+                        P1J7WvMcG: {
+                          height: 800,
+                          width: m?.width || `100vw`,
+                          y: (m?.y || 0) + 0 + 0,
+                        },
+                      },
+                      children: /*#__PURE__*/ a(E, {
+                        height: 1e3,
+                        y: (m?.y || 0) + 0,
+                        children: /*#__PURE__*/ a(w, {
+                          className: `framer-14dlwbn-container`,
+                          layout: M,
+                          nodeId: `uexsNqO8D`,
+                          rendersWithMotion: !0,
+                          scopeId: `wcki3OcY_`,
+                          children: /*#__PURE__*/ a(_, {
+                            breakpoint: O,
+                            overrides: {
+                              DEJr44GVb: { style: { width: `100%` }, variant: X(`s0lcynSc3`) },
+                              P1J7WvMcG: { style: { width: `100%` }, variant: X(`wvPpZ1IwG`) },
+                            },
+                            children: /*#__PURE__*/ a(I, {
+                              height: `100%`,
+                              id: `uexsNqO8D`,
+                              layoutId: `uexsNqO8D`,
+                              style: { height: `100%` },
+                              variant: X(`mAQYDiHUl`),
+                              width: `100%`,
+                            }),
+                          }),
+                        }),
+                      }),
+                    }),
+                    /*#__PURE__*/ i(l.div, {
+                      className: `framer-8i82sf`,
+                      layout: M,
+                      children: [
+                        N() &&
+                          /*#__PURE__*/ i(l.div, {
+                            className: `framer-exru3p hidden-y7clc5 hidden-3l7bnq`,
+                            children: [
+                              /*#__PURE__*/ i(l.div, {
+                                className: `framer-1wxkc08`,
+                                children: [
+                                  /*#__PURE__*/ a(C, {
+                                    __fromCanvasComponent: !0,
+                                    children: /*#__PURE__*/ a(r, {
+                                      children: /*#__PURE__*/ a(`h1`, {
+                                        className: `framer-styles-preset-p50exy`,
+                                        "data-styles-preset": `U3NyadGC3`,
+                                        dir: `auto`,
+                                        children: `Enrollments`,
+                                      }),
+                                    }),
+                                    className: `framer-1djgb97`,
+                                    fonts: [`Inter`],
+                                    verticalAlignment: `top`,
+                                    withExternalLayout: !0,
+                                  }),
+                                  /*#__PURE__*/ i(l.div, {
+                                    className: `framer-95qg58`,
+                                    children: [
+                                      /*#__PURE__*/ a(C, {
+                                        __fromCanvasComponent: !0,
+                                        children: /*#__PURE__*/ a(r, {
+                                          children: /*#__PURE__*/ a(`p`, {
+                                            className: `framer-styles-preset-1504gar`,
+                                            "data-styles-preset": `rHJW28QP9`,
+                                            dir: `auto`,
+                                            children: /*#__PURE__*/ a(x, {
+                                              href: { hash: `:qGiz83ySR`, webPageId: `wcki3OcY_` },
+                                              motionChild: !0,
+                                              nodeId: `PKM_tyj8m`,
+                                              openInNewTab: !1,
+                                              preserveParams: !1,
+                                              relValues: [],
+                                              scopeId: `wcki3OcY_`,
+                                              smoothScroll: !0,
+                                              children: /*#__PURE__*/ a(l.a, {
+                                                className: `framer-styles-preset-fx4193`,
+                                                "data-styles-preset": `uWIEDCuYW`,
+                                                children: /*#__PURE__*/ a(`strong`, {
+                                                  children: `Usability Research`,
+                                                }),
+                                              }),
+                                            }),
+                                          }),
+                                        }),
+                                        className: `framer-1y8unus`,
+                                        fonts: [`Inter`, `Inter-Bold`],
+                                        verticalAlignment: `top`,
+                                        withExternalLayout: !0,
+                                      }),
+                                      /*#__PURE__*/ a(C, {
+                                        __fromCanvasComponent: !0,
+                                        children: /*#__PURE__*/ a(r, {
+                                          children: /*#__PURE__*/ a(`p`, {
+                                            className: `framer-styles-preset-1504gar`,
+                                            "data-styles-preset": `rHJW28QP9`,
+                                            dir: `auto`,
+                                            children: /*#__PURE__*/ a(x, {
+                                              href: { hash: `:E_6yIy1Lz`, webPageId: `wcki3OcY_` },
+                                              motionChild: !0,
+                                              nodeId: `KIv7kaMRS`,
+                                              openInNewTab: !1,
+                                              relValues: [],
+                                              scopeId: `wcki3OcY_`,
+                                              smoothScroll: !0,
+                                              children: /*#__PURE__*/ a(l.a, {
+                                                className: `framer-styles-preset-fx4193`,
+                                                "data-styles-preset": `uWIEDCuYW`,
+                                                children: /*#__PURE__*/ a(`strong`, {
+                                                  children: `Prototypes and Mockups`,
+                                                }),
+                                              }),
+                                            }),
+                                          }),
+                                        }),
+                                        className: `framer-6ed7py`,
+                                        fonts: [`Inter`, `Inter-Bold`],
+                                        verticalAlignment: `top`,
+                                        withExternalLayout: !0,
+                                      }),
+                                    ],
+                                  }),
+                                ],
+                              }),
+                              /*#__PURE__*/ a(l.div, {
+                                className: `framer-1eh109x`,
+                                children: /*#__PURE__*/ a(x, {
+                                  href: { webPageId: `Yk0caFFXD` },
+                                  motionChild: !0,
+                                  nodeId: `VSfCEv2Fp`,
+                                  openInNewTab: !1,
+                                  scopeId: `wcki3OcY_`,
+                                  children: /*#__PURE__*/ a(l.a, {
+                                    className: `framer-ijfle8 framer-1bpinvh`,
+                                    "data-framer-name": `Button`,
+                                    children: /*#__PURE__*/ a(l.div, {
+                                      className: `framer-v1cgbz`,
+                                      children: /*#__PURE__*/ i(v, {
+                                        className: `framer-eoch6j`,
+                                        requiresOverflowVisible: !1,
+                                        svg: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 13.271 12.414" overflow="visible"><path d="M 0 6.207 L 6.207 12.414 L 7.621 11 L 2.828 6.207 L 7.621 1.414 L 6.207 0 Z M 5.65 6.207 L 11.857 12.414 L 13.271 11 L 8.478 6.207 L 13.271 1.414 L 11.857 0 Z" fill="rgb(255, 255, 255)"></path></svg>`,
+                                        withExternalLayout: !0,
+                                        children: [
+                                          /*#__PURE__*/ a(v, {
+                                            className: `framer-18zy1kv`,
+                                            requiresOverflowVisible: !1,
+                                            svg: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 7.621 12.414" overflow="visible"><path d="M 0 6.207 L 6.207 12.414 L 7.621 11 L 2.828 6.207 L 7.621 1.414 L 6.207 0 Z" fill="transparent"></path></svg>`,
+                                            withExternalLayout: !0,
+                                          }),
+                                          /*#__PURE__*/ a(v, {
+                                            className: `framer-kjbgxi`,
+                                            requiresOverflowVisible: !1,
+                                            svg: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 7.621 12.414" overflow="visible"><path d="M 0 6.207 L 6.207 12.414 L 7.621 11 L 2.828 6.207 L 7.621 1.414 L 6.207 0 Z" fill="transparent"></path></svg>`,
+                                            withExternalLayout: !0,
+                                          }),
+                                        ],
+                                      }),
+                                    }),
+                                  }),
+                                }),
+                              }),
+                            ],
+                          }),
+                        /*#__PURE__*/ i(l.div, {
+                          className: `framer-1vgbq3n`,
+                          children: [
+                            /*#__PURE__*/ i(l.div, {
+                              className: `framer-54nn8j`,
+                              children: [
+                                /*#__PURE__*/ i(l.div, {
+                                  className: `framer-1y0gm8t`,
+                                  children: [
+                                    /*#__PURE__*/ a(C, {
+                                      __fromCanvasComponent: !0,
+                                      children: /*#__PURE__*/ a(r, {
+                                        children: /*#__PURE__*/ a(`h2`, {
+                                          className: `framer-styles-preset-qvrn1k`,
+                                          "data-styles-preset": `ksQr_zVQP`,
+                                          children: /*#__PURE__*/ a(`strong`, {
+                                            children: `Project Overview`,
+                                          }),
+                                        }),
+                                      }),
+                                      className: `framer-b9wp0x`,
+                                      fonts: [`Inter`, `Inter-Bold`],
+                                      verticalAlignment: `top`,
+                                      withExternalLayout: !0,
+                                    }),
+                                    /*#__PURE__*/ a(C, {
+                                      __fromCanvasComponent: !0,
+                                      children: /*#__PURE__*/ i(r, {
+                                        children: [
+                                          /*#__PURE__*/ a(`p`, {
+                                            className: `framer-styles-preset-12u88cl`,
+                                            "data-styles-preset": `HftgEsO0a`,
+                                            dir: `auto`,
+                                            children: /*#__PURE__*/ a(`strong`, {
+                                              children: `Transforming a complex legacy enrollment system that supports thousands of daily transactions into a scalable, self-service portal, reducing enrollment-related support tickets by over 40% within three months of deployment.`,
+                                            }),
+                                          }),
+                                          /*#__PURE__*/ a(`p`, {
+                                            className: `framer-styles-preset-12u88cl`,
+                                            "data-styles-preset": `HftgEsO0a`,
+                                            dir: `auto`,
+                                            children: `Originally built in 2010 as an internal tool, the Enrollments portal supports the registration and onboarding of medical providers with major U.S. insurance companies. Its primary function is to connect medical offices to Optum systems, enabling providers to interact directly with insurer billing platforms. The system was not designed for external users and did not support self-service configuration.`,
+                                          }),
+                                          /*#__PURE__*/ a(`p`, {
+                                            className: `framer-styles-preset-12u88cl`,
+                                            "data-styles-preset": `HftgEsO0a`,
+                                            dir: `auto`,
+                                            children: `In 2025, my team was tasked with evolving Enrollments into a self-service solution to support a tiered support and pricing model. This required simplifying complex workflows for independent use while maintaining critical functionality and integrations. The long-term vision is to transform the platform into a centralized, AI-powered system for registration, configuration, and ongoing user support across the Optum product ecosystem.`,
+                                          }),
+                                        ],
+                                      }),
+                                      className: `framer-a2rpbo`,
+                                      fonts: [`Inter`, `Inter-Bold`],
+                                      verticalAlignment: `top`,
+                                      withExternalLayout: !0,
+                                    }),
+                                  ],
+                                }),
+                                /*#__PURE__*/ i(l.div, {
+                                  className: `framer-c638hh`,
+                                  children: [
+                                    /*#__PURE__*/ a(C, {
+                                      __fromCanvasComponent: !0,
+                                      children: /*#__PURE__*/ a(r, {
+                                        children: /*#__PURE__*/ a(`h3`, {
+                                          className: `framer-styles-preset-bdezu4`,
+                                          "data-styles-preset": `TWYWOtjjp`,
+                                          dir: `auto`,
+                                          children: /*#__PURE__*/ a(`strong`, {
+                                            children: `Main Challenge`,
+                                          }),
+                                        }),
+                                      }),
+                                      className: `framer-1deosv2`,
+                                      fonts: [`Inter`, `Inter-Bold`],
+                                      verticalAlignment: `top`,
+                                      withExternalLayout: !0,
+                                    }),
+                                    /*#__PURE__*/ a(C, {
+                                      __fromCanvasComponent: !0,
+                                      children: /*#__PURE__*/ i(r, {
+                                        children: [
+                                          /*#__PURE__*/ a(`p`, {
+                                            className: `framer-styles-preset-12u88cl`,
+                                            "data-styles-preset": `HftgEsO0a`,
+                                            dir: `auto`,
+                                            children: `The challenge was to modernize a highly complex, business-critical system without disrupting existing operations.`,
+                                          }),
+                                          /*#__PURE__*/ a(`p`, {
+                                            className: `framer-styles-preset-12u88cl`,
+                                            "data-styles-preset": `HftgEsO0a`,
+                                            dir: `auto`,
+                                            children: `The platform supported thousands of daily interactions and multiple interconnected workflows, making full redesign risky. Instead, we executed an incremental transformation strategy, simplifying the experience step-by-step while maintaining full functionality and system stability.`,
+                                          }),
+                                        ],
+                                      }),
+                                      className: `framer-2br3vw`,
+                                      fonts: [`Inter`],
+                                      verticalAlignment: `top`,
+                                      withExternalLayout: !0,
+                                    }),
+                                  ],
+                                }),
+                                /*#__PURE__*/ i(l.div, {
+                                  className: `framer-1ouj6vd`,
+                                  children: [
+                                    /*#__PURE__*/ a(C, {
+                                      __fromCanvasComponent: !0,
+                                      children: /*#__PURE__*/ a(r, {
+                                        children: /*#__PURE__*/ a(`h3`, {
+                                          className: `framer-styles-preset-bdezu4`,
+                                          "data-styles-preset": `TWYWOtjjp`,
+                                          children: /*#__PURE__*/ a(`strong`, {
+                                            children: `My Role`,
+                                          }),
+                                        }),
+                                      }),
+                                      className: `framer-1uk6r8h`,
+                                      fonts: [`Inter`, `Inter-Bold`],
+                                      verticalAlignment: `top`,
+                                      withExternalLayout: !0,
+                                    }),
+                                    /*#__PURE__*/ a(C, {
+                                      __fromCanvasComponent: !0,
+                                      children: /*#__PURE__*/ i(r, {
+                                        children: [
+                                          /*#__PURE__*/ a(`p`, {
+                                            className: `framer-styles-preset-12u88cl`,
+                                            "data-styles-preset": `HftgEsO0a`,
+                                            dir: `auto`,
+                                            children: `I joined as Lead UX Designer and team lead, working with a junior designer and a UX researcher.`,
+                                          }),
+                                          /*#__PURE__*/ a(`p`, {
+                                            className: `framer-styles-preset-12u88cl`,
+                                            "data-styles-preset": `HftgEsO0a`,
+                                            dir: `auto`,
+                                            children: `I led the decomposition of complex workflows into core functional steps, identifying high-frequency use cases that accounted for approximately 80% of daily activity. These became the foundation for a simplified navigation model, while less common scenarios were embedded contextually within workflows.`,
+                                          }),
+                                          /*#__PURE__*/ a(`p`, {
+                                            className: `framer-styles-preset-12u88cl`,
+                                            "data-styles-preset": `HftgEsO0a`,
+                                            dir: `auto`,
+                                            children: `I worked closely with product and engineering to ensure that all design decisions aligned with technical constraints, regulatory requirements, and business priorities.`,
+                                          }),
+                                        ],
+                                      }),
+                                      className: `framer-aeqyiu`,
+                                      fonts: [`Inter`],
+                                      verticalAlignment: `top`,
+                                      withExternalLayout: !0,
+                                    }),
+                                  ],
+                                }),
+                                /*#__PURE__*/ i(l.div, {
+                                  className: `framer-1s43c80`,
+                                  children: [
+                                    /*#__PURE__*/ a(C, {
+                                      __fromCanvasComponent: !0,
+                                      children: /*#__PURE__*/ a(r, {
+                                        children: /*#__PURE__*/ a(`h3`, {
+                                          className: `framer-styles-preset-bdezu4`,
+                                          "data-styles-preset": `TWYWOtjjp`,
+                                          children: /*#__PURE__*/ a(`strong`, {
+                                            children: `Key UX Decisions`,
+                                          }),
+                                        }),
+                                      }),
+                                      className: `framer-1jly1ba`,
+                                      fonts: [`Inter`, `Inter-Bold`],
+                                      verticalAlignment: `top`,
+                                      withExternalLayout: !0,
+                                    }),
+                                    /*#__PURE__*/ a(C, {
+                                      __fromCanvasComponent: !0,
+                                      children: /*#__PURE__*/ a(r, {
+                                        children: /*#__PURE__*/ i(`ul`, {
+                                          className: `framer-styles-preset-12u88cl`,
+                                          "data-styles-preset": `HftgEsO0a`,
+                                          dir: `auto`,
+                                          children: [
+                                            /*#__PURE__*/ a(`li`, {
+                                              "data-preset-tag": `p`,
+                                              children: /*#__PURE__*/ a(`p`, {
+                                                children: `Reframed navigation around primary workflows rather than system structure`,
+                                              }),
+                                            }),
+                                            /*#__PURE__*/ a(`li`, {
+                                              "data-preset-tag": `p`,
+                                              children: /*#__PURE__*/ a(`p`, {
+                                                children: `Prioritized progressive disclosure to reduce cognitive load`,
+                                              }),
+                                            }),
+                                            /*#__PURE__*/ a(`li`, {
+                                              "data-preset-tag": `p`,
+                                              children: /*#__PURE__*/ a(`p`, {
+                                                children: `Eliminating unnecessary steps and rare edge cases.`,
+                                              }),
+                                            }),
+                                            /*#__PURE__*/ a(`li`, {
+                                              "data-preset-tag": `p`,
+                                              children: /*#__PURE__*/ a(`p`, {
+                                                children: `Introduced contextual guidance and inline support`,
+                                              }),
+                                            }),
+                                            /*#__PURE__*/ a(`li`, {
+                                              "data-preset-tag": `p`,
+                                              children: /*#__PURE__*/ a(`p`, {
+                                                children: `Implementing real-time feedback to improve user confidence and error recovery`,
+                                              }),
+                                            }),
+                                          ],
+                                        }),
+                                      }),
+                                      className: `framer-4hadgr`,
+                                      fonts: [`Inter`],
+                                      verticalAlignment: `top`,
+                                      withExternalLayout: !0,
+                                    }),
+                                  ],
+                                }),
+                                /*#__PURE__*/ i(l.div, {
+                                  className: `framer-1f31pj1`,
+                                  children: [
+                                    /*#__PURE__*/ a(C, {
+                                      __fromCanvasComponent: !0,
+                                      children: /*#__PURE__*/ a(r, {
+                                        children: /*#__PURE__*/ a(`h3`, {
+                                          className: `framer-styles-preset-bdezu4`,
+                                          "data-styles-preset": `TWYWOtjjp`,
+                                          children: /*#__PURE__*/ a(`strong`, {
+                                            children: `Tools`,
+                                          }),
+                                        }),
+                                      }),
+                                      className: `framer-17fn6xk`,
+                                      fonts: [`Inter`, `Inter-Bold`],
+                                      verticalAlignment: `top`,
+                                      withExternalLayout: !0,
+                                    }),
+                                    /*#__PURE__*/ a(C, {
+                                      __fromCanvasComponent: !0,
+                                      children: /*#__PURE__*/ a(r, {
+                                        children: /*#__PURE__*/ a(`p`, {
+                                          className: `framer-styles-preset-12u88cl`,
+                                          "data-styles-preset": `HftgEsO0a`,
+                                          dir: `auto`,
+                                          children: `Figma, FigJam, Balsamiq, Microsoft Loop, Copilot AI, Figma Make`,
+                                        }),
+                                      }),
+                                      className: `framer-363flx`,
+                                      fonts: [`Inter`],
+                                      verticalAlignment: `top`,
+                                      withExternalLayout: !0,
+                                    }),
+                                  ],
+                                }),
+                                /*#__PURE__*/ i(l.div, {
+                                  className: `framer-1nvxuc1`,
+                                  "data-border": !0,
+                                  id: P,
+                                  ref: F,
+                                  children: [
+                                    /*#__PURE__*/ i(l.div, {
+                                      className: `framer-f2xksd`,
+                                      children: [
+                                        /*#__PURE__*/ a(C, {
+                                          __fromCanvasComponent: !0,
+                                          children: /*#__PURE__*/ a(r, {
+                                            children: /*#__PURE__*/ a(`h2`, {
+                                              className: `framer-styles-preset-qvrn1k`,
+                                              "data-styles-preset": `ksQr_zVQP`,
+                                              dir: `auto`,
+                                              children: /*#__PURE__*/ a(`strong`, {
+                                                children: `Research and early concepting`,
+                                              }),
+                                            }),
+                                          }),
+                                          className: `framer-11e7b0t`,
+                                          fonts: [`Inter`, `Inter-Bold`],
+                                          verticalAlignment: `top`,
+                                          withExternalLayout: !0,
+                                        }),
+                                        /*#__PURE__*/ a(C, {
+                                          __fromCanvasComponent: !0,
+                                          children: /*#__PURE__*/ i(r, {
+                                            children: [
+                                              /*#__PURE__*/ a(`p`, {
+                                                className: `framer-styles-preset-12u88cl`,
+                                                "data-styles-preset": `HftgEsO0a`,
+                                                dir: `auto`,
+                                                children: `After joining the project, we conducted a structured discovery phase to understand the existing system, workflows, and constraints. We partnered with product stakeholders and internal users to analyze behavior, pain points, and usage patterns, identifying opportunities to simplify high-frequency tasks.`,
+                                              }),
+                                              /*#__PURE__*/ a(`p`, {
+                                                className: `framer-styles-preset-12u88cl`,
+                                                "data-styles-preset": `HftgEsO0a`,
+                                                dir: `auto`,
+                                                children: `In parallel, we expanded the research to include external users, focusing on their expectations for self-service and identifying gaps between the current system and real-world onboarding needs. A competitive analysis of comparable platforms helped benchmark functionality, surface best practices, and highlight areas for differentiation.`,
+                                              }),
+                                              /*#__PURE__*/ a(`p`, {
+                                                className: `framer-styles-preset-12u88cl`,
+                                                "data-styles-preset": `HftgEsO0a`,
+                                                dir: `auto`,
+                                                children: `These insights informed a clear set of user requirements and design principles, enabling us to define solutions that balance usability, business goals, and the technical and regulatory constraints of an enterprise healthcare system.`,
+                                              }),
+                                            ],
+                                          }),
+                                          className: `framer-q1xnv7`,
+                                          fonts: [`Inter`],
+                                          verticalAlignment: `top`,
+                                          withExternalLayout: !0,
+                                        }),
+                                      ],
+                                    }),
+                                    /*#__PURE__*/ i(l.div, {
+                                      className: `framer-fhda0q`,
+                                      children: [
+                                        /*#__PURE__*/ i(l.div, {
+                                          className: `framer-n120ts`,
+                                          children: [
+                                            /*#__PURE__*/ a(C, {
+                                              __fromCanvasComponent: !0,
+                                              children: /*#__PURE__*/ a(r, {
+                                                children: /*#__PURE__*/ a(`p`, {
+                                                  className: `framer-styles-preset-12u88cl`,
+                                                  "data-styles-preset": `HftgEsO0a`,
+                                                  dir: `auto`,
+                                                  children: /*#__PURE__*/ a(`strong`, {
+                                                    children: `Project board`,
+                                                  }),
+                                                }),
+                                              }),
+                                              className: `framer-q3dfun`,
+                                              fonts: [`Inter`, `Inter-Bold`],
+                                              verticalAlignment: `top`,
+                                              withExternalLayout: !0,
+                                            }),
+                                            /*#__PURE__*/ a(_, {
+                                              breakpoint: O,
+                                              overrides: {
+                                                CpJoOsDxW: {
+                                                  background: {
+                                                    alt: ``,
+                                                    fit: `fit`,
+                                                    intrinsicHeight: 821,
+                                                    intrinsicWidth: 1244,
+                                                    loading: d(
+                                                      (m?.y || 0) +
+                                                        0 +
+                                                        0 +
+                                                        168 +
+                                                        0 +
+                                                        0 +
+                                                        0 +
+                                                        2242.2 +
+                                                        24 +
+                                                        476.5 +
+                                                        0 +
+                                                        0 +
+                                                        0 +
+                                                        139.5
+                                                    ),
+                                                    pixelHeight: 7392,
+                                                    pixelWidth: 7751,
+                                                    positionX: `center`,
+                                                    positionY: `center`,
+                                                    src: `../../assets/images/Bwaw3UCD7FvNkAhbhJVMbpCJ0-724240.png`,
+                                                    srcSet: `../../assets/images/Bwaw3UCD7FvNkAhbhJVMbpCJ0-d12785.png 512w,../../assets/images/Bwaw3UCD7FvNkAhbhJVMbpCJ0-0f1966.png 1024w,../../assets/images/Bwaw3UCD7FvNkAhbhJVMbpCJ0.png 2048w,../../assets/images/Bwaw3UCD7FvNkAhbhJVMbpCJ0-a1c382.png 4096w,../../assets/images/Bwaw3UCD7FvNkAhbhJVMbpCJ0-724240.png 7751w`,
+                                                  },
+                                                },
+                                                DEJr44GVb: {
+                                                  background: {
+                                                    alt: ``,
+                                                    fit: `fit`,
+                                                    intrinsicHeight: 821,
+                                                    intrinsicWidth: 1244,
+                                                    loading: d(
+                                                      (m?.y || 0) +
+                                                        0 +
+                                                        800 +
+                                                        32 +
+                                                        77.2 +
+                                                        0 +
+                                                        0 +
+                                                        0 +
+                                                        2202.2 +
+                                                        24 +
+                                                        476.5 +
+                                                        0 +
+                                                        0 +
+                                                        0 +
+                                                        139.5
+                                                    ),
+                                                    pixelHeight: 7392,
+                                                    pixelWidth: 7751,
+                                                    positionX: `center`,
+                                                    positionY: `center`,
+                                                    sizes: `calc(${m?.width || `100vw`} - 112px)`,
+                                                    src: `../../assets/images/Bwaw3UCD7FvNkAhbhJVMbpCJ0-724240.png`,
+                                                    srcSet: `../../assets/images/Bwaw3UCD7FvNkAhbhJVMbpCJ0-d12785.png 512w,../../assets/images/Bwaw3UCD7FvNkAhbhJVMbpCJ0-0f1966.png 1024w,../../assets/images/Bwaw3UCD7FvNkAhbhJVMbpCJ0.png 2048w,../../assets/images/Bwaw3UCD7FvNkAhbhJVMbpCJ0-a1c382.png 4096w,../../assets/images/Bwaw3UCD7FvNkAhbhJVMbpCJ0-724240.png 7751w`,
+                                                  },
+                                                },
+                                                P1J7WvMcG: {
+                                                  background: {
+                                                    alt: ``,
+                                                    fit: `fit`,
+                                                    intrinsicHeight: 821,
+                                                    intrinsicWidth: 1244,
+                                                    loading: d(
+                                                      (m?.y || 0) +
+                                                        0 +
+                                                        800 +
+                                                        24 +
+                                                        0 +
+                                                        0 +
+                                                        53.2 +
+                                                        0 +
+                                                        2122.2 +
+                                                        24 +
+                                                        468.5 +
+                                                        0 +
+                                                        0 +
+                                                        0 +
+                                                        131.5
+                                                    ),
+                                                    pixelHeight: 7392,
+                                                    pixelWidth: 7751,
+                                                    positionX: `center`,
+                                                    positionY: `center`,
+                                                    sizes: `calc(${m?.width || `100vw`} - 56px)`,
+                                                    src: `../../assets/images/Bwaw3UCD7FvNkAhbhJVMbpCJ0-724240.png`,
+                                                    srcSet: `../../assets/images/Bwaw3UCD7FvNkAhbhJVMbpCJ0-d12785.png 512w,../../assets/images/Bwaw3UCD7FvNkAhbhJVMbpCJ0-0f1966.png 1024w,../../assets/images/Bwaw3UCD7FvNkAhbhJVMbpCJ0.png 2048w,../../assets/images/Bwaw3UCD7FvNkAhbhJVMbpCJ0-a1c382.png 4096w,../../assets/images/Bwaw3UCD7FvNkAhbhJVMbpCJ0-724240.png 7751w`,
+                                                  },
+                                                },
+                                              },
+                                              children: /*#__PURE__*/ a(T, {
+                                                background: {
+                                                  alt: ``,
+                                                  fit: `fit`,
+                                                  intrinsicHeight: 821,
+                                                  intrinsicWidth: 1244,
+                                                  loading: d(
+                                                    (m?.y || 0) +
+                                                      0 +
+                                                      0 +
+                                                      168 +
+                                                      0 +
+                                                      0 +
+                                                      0 +
+                                                      2202.2 +
+                                                      24 +
+                                                      476.5 +
+                                                      0 +
+                                                      0 +
+                                                      0 +
+                                                      139.5
+                                                  ),
+                                                  pixelHeight: 7392,
+                                                  pixelWidth: 7751,
+                                                  positionX: `center`,
+                                                  positionY: `center`,
+                                                  src: `../../assets/images/Bwaw3UCD7FvNkAhbhJVMbpCJ0-724240.png`,
+                                                  srcSet: `../../assets/images/Bwaw3UCD7FvNkAhbhJVMbpCJ0-d12785.png 512w,../../assets/images/Bwaw3UCD7FvNkAhbhJVMbpCJ0-0f1966.png 1024w,../../assets/images/Bwaw3UCD7FvNkAhbhJVMbpCJ0.png 2048w,../../assets/images/Bwaw3UCD7FvNkAhbhJVMbpCJ0-a1c382.png 4096w,../../assets/images/Bwaw3UCD7FvNkAhbhJVMbpCJ0-724240.png 7751w`,
+                                                },
+                                                className: `framer-1i9ro87`,
+                                                "data-framer-name": `Image`,
+                                                fitImageDimension: `height`,
+                                              }),
+                                            }),
+                                          ],
+                                        }),
+                                        /*#__PURE__*/ i(l.div, {
+                                          className: `framer-i3j6gh`,
+                                          children: [
+                                            /*#__PURE__*/ a(C, {
+                                              __fromCanvasComponent: !0,
+                                              children: /*#__PURE__*/ a(r, {
+                                                children: /*#__PURE__*/ a(`p`, {
+                                                  className: `framer-styles-preset-12u88cl`,
+                                                  "data-styles-preset": `HftgEsO0a`,
+                                                  dir: `auto`,
+                                                  children: /*#__PURE__*/ a(`strong`, {
+                                                    children: `Main workflows`,
+                                                  }),
+                                                }),
+                                              }),
+                                              className: `framer-1t2o9vu`,
+                                              fonts: [`Inter`, `Inter-Bold`],
+                                              verticalAlignment: `top`,
+                                              withExternalLayout: !0,
+                                            }),
+                                            /*#__PURE__*/ a(_, {
+                                              breakpoint: O,
+                                              overrides: {
+                                                CpJoOsDxW: {
+                                                  background: {
+                                                    alt: ``,
+                                                    fit: `fit`,
+                                                    intrinsicHeight: 821,
+                                                    intrinsicWidth: 1244,
+                                                    loading: d(
+                                                      (m?.y || 0) +
+                                                        0 +
+                                                        0 +
+                                                        168 +
+                                                        0 +
+                                                        0 +
+                                                        0 +
+                                                        2242.2 +
+                                                        24 +
+                                                        476.5 +
+                                                        0 +
+                                                        818.5 +
+                                                        0 +
+                                                        139.5
+                                                    ),
+                                                    pixelHeight: 17299,
+                                                    pixelWidth: 23700,
+                                                    positionX: `center`,
+                                                    positionY: `center`,
+                                                    src: `../../assets/images/GLsNTvD1lEbXXhUiMWQzuMLkRI-7cb6a6.png`,
+                                                    srcSet: `../../assets/images/GLsNTvD1lEbXXhUiMWQzuMLkRI-c30f5c.png 512w,../../assets/images/GLsNTvD1lEbXXhUiMWQzuMLkRI-c4b68a.png 1024w,../../assets/images/GLsNTvD1lEbXXhUiMWQzuMLkRI.png 2048w,../../assets/images/GLsNTvD1lEbXXhUiMWQzuMLkRI-93fee6.png 4096w,../../assets/images/GLsNTvD1lEbXXhUiMWQzuMLkRI-7cb6a6.png 23700w`,
+                                                  },
+                                                },
+                                                DEJr44GVb: {
+                                                  background: {
+                                                    alt: ``,
+                                                    fit: `fit`,
+                                                    intrinsicHeight: 821,
+                                                    intrinsicWidth: 1244,
+                                                    loading: d(
+                                                      (m?.y || 0) +
+                                                        0 +
+                                                        800 +
+                                                        32 +
+                                                        77.2 +
+                                                        0 +
+                                                        0 +
+                                                        0 +
+                                                        2202.2 +
+                                                        24 +
+                                                        476.5 +
+                                                        0 +
+                                                        833.5 +
+                                                        0 +
+                                                        139.5
+                                                    ),
+                                                    pixelHeight: 17299,
+                                                    pixelWidth: 23700,
+                                                    positionX: `center`,
+                                                    positionY: `center`,
+                                                    sizes: `calc(${m?.width || `100vw`} - 112px)`,
+                                                    src: `../../assets/images/GLsNTvD1lEbXXhUiMWQzuMLkRI-7cb6a6.png`,
+                                                    srcSet: `../../assets/images/GLsNTvD1lEbXXhUiMWQzuMLkRI-c30f5c.png 512w,../../assets/images/GLsNTvD1lEbXXhUiMWQzuMLkRI-c4b68a.png 1024w,../../assets/images/GLsNTvD1lEbXXhUiMWQzuMLkRI.png 2048w,../../assets/images/GLsNTvD1lEbXXhUiMWQzuMLkRI-93fee6.png 4096w,../../assets/images/GLsNTvD1lEbXXhUiMWQzuMLkRI-7cb6a6.png 23700w`,
+                                                  },
+                                                },
+                                                P1J7WvMcG: {
+                                                  background: {
+                                                    alt: ``,
+                                                    fit: `fit`,
+                                                    intrinsicHeight: 821,
+                                                    intrinsicWidth: 1244,
+                                                    loading: d(
+                                                      (m?.y || 0) +
+                                                        0 +
+                                                        800 +
+                                                        24 +
+                                                        0 +
+                                                        0 +
+                                                        53.2 +
+                                                        0 +
+                                                        2122.2 +
+                                                        24 +
+                                                        468.5 +
+                                                        0 +
+                                                        470.5 +
+                                                        0 +
+                                                        131.5
+                                                    ),
+                                                    pixelHeight: 17299,
+                                                    pixelWidth: 23700,
+                                                    positionX: `center`,
+                                                    positionY: `center`,
+                                                    sizes: `calc(${m?.width || `100vw`} - 56px)`,
+                                                    src: `../../assets/images/GLsNTvD1lEbXXhUiMWQzuMLkRI-7cb6a6.png`,
+                                                    srcSet: `../../assets/images/GLsNTvD1lEbXXhUiMWQzuMLkRI-c30f5c.png 512w,../../assets/images/GLsNTvD1lEbXXhUiMWQzuMLkRI-c4b68a.png 1024w,../../assets/images/GLsNTvD1lEbXXhUiMWQzuMLkRI.png 2048w,../../assets/images/GLsNTvD1lEbXXhUiMWQzuMLkRI-93fee6.png 4096w,../../assets/images/GLsNTvD1lEbXXhUiMWQzuMLkRI-7cb6a6.png 23700w`,
+                                                  },
+                                                },
+                                              },
+                                              children: /*#__PURE__*/ a(T, {
+                                                background: {
+                                                  alt: ``,
+                                                  fit: `fit`,
+                                                  intrinsicHeight: 821,
+                                                  intrinsicWidth: 1244,
+                                                  loading: d(
+                                                    (m?.y || 0) +
+                                                      0 +
+                                                      0 +
+                                                      168 +
+                                                      0 +
+                                                      0 +
+                                                      0 +
+                                                      2202.2 +
+                                                      24 +
+                                                      476.5 +
+                                                      0 +
+                                                      1009.5 +
+                                                      0 +
+                                                      139.5
+                                                  ),
+                                                  pixelHeight: 17299,
+                                                  pixelWidth: 23700,
+                                                  positionX: `center`,
+                                                  positionY: `center`,
+                                                  src: `../../assets/images/GLsNTvD1lEbXXhUiMWQzuMLkRI-7cb6a6.png`,
+                                                  srcSet: `../../assets/images/GLsNTvD1lEbXXhUiMWQzuMLkRI-c30f5c.png 512w,../../assets/images/GLsNTvD1lEbXXhUiMWQzuMLkRI-c4b68a.png 1024w,../../assets/images/GLsNTvD1lEbXXhUiMWQzuMLkRI.png 2048w,../../assets/images/GLsNTvD1lEbXXhUiMWQzuMLkRI-93fee6.png 4096w,../../assets/images/GLsNTvD1lEbXXhUiMWQzuMLkRI-7cb6a6.png 23700w`,
+                                                },
+                                                className: `framer-1gsoz4j`,
+                                                "data-framer-name": `Image`,
+                                                fitImageDimension: `height`,
+                                              }),
+                                            }),
+                                            /*#__PURE__*/ a(_, {
+                                              breakpoint: O,
+                                              overrides: {
+                                                CpJoOsDxW: {
+                                                  background: {
+                                                    alt: ``,
+                                                    fit: `fit`,
+                                                    intrinsicHeight: 821,
+                                                    intrinsicWidth: 1244,
+                                                    loading: d(
+                                                      (m?.y || 0) +
+                                                        0 +
+                                                        0 +
+                                                        168 +
+                                                        0 +
+                                                        0 +
+                                                        0 +
+                                                        2242.2 +
+                                                        24 +
+                                                        476.5 +
+                                                        0 +
+                                                        818.5 +
+                                                        0 +
+                                                        654.5
+                                                    ),
+                                                    pixelHeight: 6236,
+                                                    pixelWidth: 14342,
+                                                    positionX: `center`,
+                                                    positionY: `center`,
+                                                    src: `https://framerusercontent.com/images/4hgV6GJDwt9ZETiLnlYoGjbk8Oc.png?width=14342&height=6236`,
+                                                    srcSet: `../../assets/images/4hgV6GJDwt9ZETiLnlYoGjbk8Oc-1ba56c.png 512w,../../assets/images/4hgV6GJDwt9ZETiLnlYoGjbk8Oc-cdc7d8.png 1024w,../../assets/images/4hgV6GJDwt9ZETiLnlYoGjbk8Oc.png 2048w,../../assets/images/4hgV6GJDwt9ZETiLnlYoGjbk8Oc-91c977.png 4096w,https://framerusercontent.com/images/4hgV6GJDwt9ZETiLnlYoGjbk8Oc.png?width=14342&height=6236 14342w`,
+                                                  },
+                                                },
+                                                DEJr44GVb: {
+                                                  background: {
+                                                    alt: ``,
+                                                    fit: `fit`,
+                                                    intrinsicHeight: 821,
+                                                    intrinsicWidth: 1244,
+                                                    loading: d(
+                                                      (m?.y || 0) +
+                                                        0 +
+                                                        800 +
+                                                        32 +
+                                                        77.2 +
+                                                        0 +
+                                                        0 +
+                                                        0 +
+                                                        2202.2 +
+                                                        24 +
+                                                        476.5 +
+                                                        0 +
+                                                        833.5 +
+                                                        0 +
+                                                        664.5
+                                                    ),
+                                                    pixelHeight: 6236,
+                                                    pixelWidth: 14342,
+                                                    positionX: `center`,
+                                                    positionY: `center`,
+                                                    sizes: `calc(${m?.width || `100vw`} - 112px)`,
+                                                    src: `https://framerusercontent.com/images/4hgV6GJDwt9ZETiLnlYoGjbk8Oc.png?width=14342&height=6236`,
+                                                    srcSet: `../../assets/images/4hgV6GJDwt9ZETiLnlYoGjbk8Oc-1ba56c.png 512w,../../assets/images/4hgV6GJDwt9ZETiLnlYoGjbk8Oc-cdc7d8.png 1024w,../../assets/images/4hgV6GJDwt9ZETiLnlYoGjbk8Oc.png 2048w,../../assets/images/4hgV6GJDwt9ZETiLnlYoGjbk8Oc-91c977.png 4096w,https://framerusercontent.com/images/4hgV6GJDwt9ZETiLnlYoGjbk8Oc.png?width=14342&height=6236 14342w`,
+                                                  },
+                                                },
+                                                P1J7WvMcG: {
+                                                  background: {
+                                                    alt: ``,
+                                                    fit: `fit`,
+                                                    intrinsicHeight: 821,
+                                                    intrinsicWidth: 1244,
+                                                    loading: d(
+                                                      (m?.y || 0) +
+                                                        0 +
+                                                        800 +
+                                                        24 +
+                                                        0 +
+                                                        0 +
+                                                        53.2 +
+                                                        0 +
+                                                        2122.2 +
+                                                        24 +
+                                                        468.5 +
+                                                        0 +
+                                                        470.5 +
+                                                        0 +
+                                                        383.5
+                                                    ),
+                                                    pixelHeight: 6236,
+                                                    pixelWidth: 14342,
+                                                    positionX: `center`,
+                                                    positionY: `center`,
+                                                    sizes: `calc(${m?.width || `100vw`} - 56px)`,
+                                                    src: `https://framerusercontent.com/images/4hgV6GJDwt9ZETiLnlYoGjbk8Oc.png?width=14342&height=6236`,
+                                                    srcSet: `../../assets/images/4hgV6GJDwt9ZETiLnlYoGjbk8Oc-1ba56c.png 512w,../../assets/images/4hgV6GJDwt9ZETiLnlYoGjbk8Oc-cdc7d8.png 1024w,../../assets/images/4hgV6GJDwt9ZETiLnlYoGjbk8Oc.png 2048w,../../assets/images/4hgV6GJDwt9ZETiLnlYoGjbk8Oc-91c977.png 4096w,https://framerusercontent.com/images/4hgV6GJDwt9ZETiLnlYoGjbk8Oc.png?width=14342&height=6236 14342w`,
+                                                  },
+                                                },
+                                              },
+                                              children: /*#__PURE__*/ a(T, {
+                                                background: {
+                                                  alt: ``,
+                                                  fit: `fit`,
+                                                  intrinsicHeight: 821,
+                                                  intrinsicWidth: 1244,
+                                                  loading: d(
+                                                    (m?.y || 0) +
+                                                      0 +
+                                                      0 +
+                                                      168 +
+                                                      0 +
+                                                      0 +
+                                                      0 +
+                                                      2202.2 +
+                                                      24 +
+                                                      476.5 +
+                                                      0 +
+                                                      1009.5 +
+                                                      0 +
+                                                      800.5
+                                                  ),
+                                                  pixelHeight: 6236,
+                                                  pixelWidth: 14342,
+                                                  positionX: `center`,
+                                                  positionY: `center`,
+                                                  src: `https://framerusercontent.com/images/4hgV6GJDwt9ZETiLnlYoGjbk8Oc.png?width=14342&height=6236`,
+                                                  srcSet: `../../assets/images/4hgV6GJDwt9ZETiLnlYoGjbk8Oc-1ba56c.png 512w,../../assets/images/4hgV6GJDwt9ZETiLnlYoGjbk8Oc-cdc7d8.png 1024w,../../assets/images/4hgV6GJDwt9ZETiLnlYoGjbk8Oc.png 2048w,../../assets/images/4hgV6GJDwt9ZETiLnlYoGjbk8Oc-91c977.png 4096w,https://framerusercontent.com/images/4hgV6GJDwt9ZETiLnlYoGjbk8Oc.png?width=14342&height=6236 14342w`,
+                                                },
+                                                className: `framer-1v7w9oy`,
+                                                "data-framer-name": `Image`,
+                                                fitImageDimension: `height`,
+                                              }),
+                                            }),
+                                          ],
+                                        }),
+                                        /*#__PURE__*/ i(l.div, {
+                                          className: `framer-rlx6j6`,
+                                          children: [
+                                            /*#__PURE__*/ a(C, {
+                                              __fromCanvasComponent: !0,
+                                              children: /*#__PURE__*/ a(r, {
+                                                children: /*#__PURE__*/ a(`p`, {
+                                                  className: `framer-styles-preset-12u88cl`,
+                                                  "data-styles-preset": `HftgEsO0a`,
+                                                  dir: `auto`,
+                                                  children: /*#__PURE__*/ a(`strong`, {
+                                                    children: `Personas`,
+                                                  }),
+                                                }),
+                                              }),
+                                              className: `framer-13t34xu`,
+                                              fonts: [`Inter`, `Inter-Bold`],
+                                              verticalAlignment: `top`,
+                                              withExternalLayout: !0,
+                                            }),
+                                            /*#__PURE__*/ a(_, {
+                                              breakpoint: O,
+                                              overrides: {
+                                                CpJoOsDxW: {
+                                                  background: {
+                                                    alt: ``,
+                                                    fit: `fit`,
+                                                    intrinsicHeight: 821,
+                                                    intrinsicWidth: 1244,
+                                                    loading: d(
+                                                      (m?.y || 0) +
+                                                        0 +
+                                                        0 +
+                                                        168 +
+                                                        0 +
+                                                        0 +
+                                                        0 +
+                                                        2242.2 +
+                                                        24 +
+                                                        476.5 +
+                                                        0 +
+                                                        1798 +
+                                                        0 +
+                                                        139.5
+                                                    ),
+                                                    pixelHeight: 8540,
+                                                    pixelWidth: 10034,
+                                                    positionX: `center`,
+                                                    positionY: `center`,
+                                                    src: `../../assets/images/4JSg9AEfANXnZY3QqqeK2KTgA-671624.png`,
+                                                    srcSet: `../../assets/images/4JSg9AEfANXnZY3QqqeK2KTgA-7188c6.png 512w,../../assets/images/4JSg9AEfANXnZY3QqqeK2KTgA-e3d016.png 1024w,../../assets/images/4JSg9AEfANXnZY3QqqeK2KTgA.png 2048w,../../assets/images/4JSg9AEfANXnZY3QqqeK2KTgA-9070a9.png 4096w,../../assets/images/4JSg9AEfANXnZY3QqqeK2KTgA-671624.png 10034w`,
+                                                  },
+                                                },
+                                                DEJr44GVb: {
+                                                  background: {
+                                                    alt: ``,
+                                                    fit: `fit`,
+                                                    intrinsicHeight: 821,
+                                                    intrinsicWidth: 1244,
+                                                    loading: d(
+                                                      (m?.y || 0) +
+                                                        0 +
+                                                        800 +
+                                                        32 +
+                                                        77.2 +
+                                                        0 +
+                                                        0 +
+                                                        0 +
+                                                        2202.2 +
+                                                        24 +
+                                                        476.5 +
+                                                        0 +
+                                                        1829 +
+                                                        0 +
+                                                        139.5
+                                                    ),
+                                                    pixelHeight: 8540,
+                                                    pixelWidth: 10034,
+                                                    positionX: `center`,
+                                                    positionY: `center`,
+                                                    sizes: `calc(${m?.width || `100vw`} - 112px)`,
+                                                    src: `../../assets/images/4JSg9AEfANXnZY3QqqeK2KTgA-671624.png`,
+                                                    srcSet: `../../assets/images/4JSg9AEfANXnZY3QqqeK2KTgA-7188c6.png 512w,../../assets/images/4JSg9AEfANXnZY3QqqeK2KTgA-e3d016.png 1024w,../../assets/images/4JSg9AEfANXnZY3QqqeK2KTgA.png 2048w,../../assets/images/4JSg9AEfANXnZY3QqqeK2KTgA-9070a9.png 4096w,../../assets/images/4JSg9AEfANXnZY3QqqeK2KTgA-671624.png 10034w`,
+                                                  },
+                                                },
+                                                P1J7WvMcG: {
+                                                  background: {
+                                                    alt: ``,
+                                                    fit: `fit`,
+                                                    intrinsicHeight: 821,
+                                                    intrinsicWidth: 1244,
+                                                    loading: d(
+                                                      (m?.y || 0) +
+                                                        0 +
+                                                        800 +
+                                                        24 +
+                                                        0 +
+                                                        0 +
+                                                        53.2 +
+                                                        0 +
+                                                        2122.2 +
+                                                        24 +
+                                                        468.5 +
+                                                        0 +
+                                                        1019 +
+                                                        0 +
+                                                        139.5
+                                                    ),
+                                                    pixelHeight: 8540,
+                                                    pixelWidth: 10034,
+                                                    positionX: `center`,
+                                                    positionY: `center`,
+                                                    sizes: `calc(${m?.width || `100vw`} - 56px)`,
+                                                    src: `../../assets/images/4JSg9AEfANXnZY3QqqeK2KTgA-671624.png`,
+                                                    srcSet: `../../assets/images/4JSg9AEfANXnZY3QqqeK2KTgA-7188c6.png 512w,../../assets/images/4JSg9AEfANXnZY3QqqeK2KTgA-e3d016.png 1024w,../../assets/images/4JSg9AEfANXnZY3QqqeK2KTgA.png 2048w,../../assets/images/4JSg9AEfANXnZY3QqqeK2KTgA-9070a9.png 4096w,../../assets/images/4JSg9AEfANXnZY3QqqeK2KTgA-671624.png 10034w`,
+                                                  },
+                                                },
+                                              },
+                                              children: /*#__PURE__*/ a(T, {
+                                                background: {
+                                                  alt: ``,
+                                                  fit: `fit`,
+                                                  intrinsicHeight: 821,
+                                                  intrinsicWidth: 1244,
+                                                  loading: d(
+                                                    (m?.y || 0) +
+                                                      0 +
+                                                      0 +
+                                                      168 +
+                                                      0 +
+                                                      0 +
+                                                      0 +
+                                                      2202.2 +
+                                                      24 +
+                                                      476.5 +
+                                                      0 +
+                                                      2222 +
+                                                      0 +
+                                                      139.5
+                                                  ),
+                                                  pixelHeight: 8540,
+                                                  pixelWidth: 10034,
+                                                  positionX: `center`,
+                                                  positionY: `center`,
+                                                  src: `../../assets/images/4JSg9AEfANXnZY3QqqeK2KTgA-671624.png`,
+                                                  srcSet: `../../assets/images/4JSg9AEfANXnZY3QqqeK2KTgA-7188c6.png 512w,../../assets/images/4JSg9AEfANXnZY3QqqeK2KTgA-e3d016.png 1024w,../../assets/images/4JSg9AEfANXnZY3QqqeK2KTgA.png 2048w,../../assets/images/4JSg9AEfANXnZY3QqqeK2KTgA-9070a9.png 4096w,../../assets/images/4JSg9AEfANXnZY3QqqeK2KTgA-671624.png 10034w`,
+                                                },
+                                                className: `framer-1mytiia`,
+                                                "data-framer-name": `Image`,
+                                                fitImageDimension: `height`,
+                                              }),
+                                            }),
+                                          ],
+                                        }),
+                                        /*#__PURE__*/ i(l.div, {
+                                          className: `framer-glytjy`,
+                                          children: [
+                                            /*#__PURE__*/ a(C, {
+                                              __fromCanvasComponent: !0,
+                                              children: /*#__PURE__*/ a(r, {
+                                                children: /*#__PURE__*/ a(`p`, {
+                                                  className: `framer-styles-preset-12u88cl`,
+                                                  "data-styles-preset": `HftgEsO0a`,
+                                                  dir: `auto`,
+                                                  children: /*#__PURE__*/ a(`strong`, {
+                                                    children: `Competitive Analysis`,
+                                                  }),
+                                                }),
+                                              }),
+                                              className: `framer-1dfyvgt`,
+                                              fonts: [`Inter`, `Inter-Bold`],
+                                              verticalAlignment: `top`,
+                                              withExternalLayout: !0,
+                                            }),
+                                            /*#__PURE__*/ a(_, {
+                                              breakpoint: O,
+                                              overrides: {
+                                                CpJoOsDxW: {
+                                                  background: {
+                                                    alt: ``,
+                                                    fit: `fit`,
+                                                    intrinsicHeight: 821,
+                                                    intrinsicWidth: 1244,
+                                                    loading: d(
+                                                      (m?.y || 0) +
+                                                        0 +
+                                                        0 +
+                                                        168 +
+                                                        0 +
+                                                        0 +
+                                                        0 +
+                                                        2242.2 +
+                                                        24 +
+                                                        476.5 +
+                                                        0 +
+                                                        2546.5 +
+                                                        0 +
+                                                        139.5
+                                                    ),
+                                                    pixelHeight: 10408,
+                                                    pixelWidth: 7152,
+                                                    positionX: `center`,
+                                                    positionY: `center`,
+                                                    src: `../../assets/images/wt1YuQ5MmjnVwKDYcGMi41DYyM-be4de2.png`,
+                                                    srcSet: `../../assets/images/wt1YuQ5MmjnVwKDYcGMi41DYyM-620bfc.png 703w,../../assets/images/wt1YuQ5MmjnVwKDYcGMi41DYyM-0ee9ff.png 1407w,../../assets/images/wt1YuQ5MmjnVwKDYcGMi41DYyM.png 2814w,../../assets/images/wt1YuQ5MmjnVwKDYcGMi41DYyM-be4de2.png 7152w`,
+                                                  },
+                                                },
+                                                DEJr44GVb: {
+                                                  background: {
+                                                    alt: ``,
+                                                    fit: `fit`,
+                                                    intrinsicHeight: 821,
+                                                    intrinsicWidth: 1244,
+                                                    loading: d(
+                                                      (m?.y || 0) +
+                                                        0 +
+                                                        800 +
+                                                        32 +
+                                                        77.2 +
+                                                        0 +
+                                                        0 +
+                                                        0 +
+                                                        2202.2 +
+                                                        24 +
+                                                        476.5 +
+                                                        0 +
+                                                        2590.5 +
+                                                        0 +
+                                                        139.5
+                                                    ),
+                                                    pixelHeight: 10408,
+                                                    pixelWidth: 7152,
+                                                    positionX: `center`,
+                                                    positionY: `center`,
+                                                    sizes: `calc(${m?.width || `100vw`} - 112px)`,
+                                                    src: `../../assets/images/wt1YuQ5MmjnVwKDYcGMi41DYyM-be4de2.png`,
+                                                    srcSet: `../../assets/images/wt1YuQ5MmjnVwKDYcGMi41DYyM-620bfc.png 703w,../../assets/images/wt1YuQ5MmjnVwKDYcGMi41DYyM-0ee9ff.png 1407w,../../assets/images/wt1YuQ5MmjnVwKDYcGMi41DYyM.png 2814w,../../assets/images/wt1YuQ5MmjnVwKDYcGMi41DYyM-be4de2.png 7152w`,
+                                                  },
+                                                },
+                                                P1J7WvMcG: {
+                                                  background: {
+                                                    alt: ``,
+                                                    fit: `fit`,
+                                                    intrinsicHeight: 821,
+                                                    intrinsicWidth: 1244,
+                                                    loading: d(
+                                                      (m?.y || 0) +
+                                                        0 +
+                                                        800 +
+                                                        24 +
+                                                        0 +
+                                                        0 +
+                                                        53.2 +
+                                                        0 +
+                                                        2122.2 +
+                                                        24 +
+                                                        468.5 +
+                                                        0 +
+                                                        1462.5 +
+                                                        0 +
+                                                        139.5
+                                                    ),
+                                                    pixelHeight: 10408,
+                                                    pixelWidth: 7152,
+                                                    positionX: `center`,
+                                                    positionY: `center`,
+                                                    sizes: `calc(${m?.width || `100vw`} - 56px)`,
+                                                    src: `../../assets/images/wt1YuQ5MmjnVwKDYcGMi41DYyM-be4de2.png`,
+                                                    srcSet: `../../assets/images/wt1YuQ5MmjnVwKDYcGMi41DYyM-620bfc.png 703w,../../assets/images/wt1YuQ5MmjnVwKDYcGMi41DYyM-0ee9ff.png 1407w,../../assets/images/wt1YuQ5MmjnVwKDYcGMi41DYyM.png 2814w,../../assets/images/wt1YuQ5MmjnVwKDYcGMi41DYyM-be4de2.png 7152w`,
+                                                  },
+                                                },
+                                              },
+                                              children: /*#__PURE__*/ a(T, {
+                                                background: {
+                                                  alt: ``,
+                                                  fit: `fit`,
+                                                  intrinsicHeight: 821,
+                                                  intrinsicWidth: 1244,
+                                                  loading: d(
+                                                    (m?.y || 0) +
+                                                      0 +
+                                                      0 +
+                                                      168 +
+                                                      0 +
+                                                      0 +
+                                                      0 +
+                                                      2202.2 +
+                                                      24 +
+                                                      476.5 +
+                                                      0 +
+                                                      3141.5 +
+                                                      0 +
+                                                      139.5
+                                                  ),
+                                                  pixelHeight: 10408,
+                                                  pixelWidth: 7152,
+                                                  positionX: `center`,
+                                                  positionY: `center`,
+                                                  src: `../../assets/images/wt1YuQ5MmjnVwKDYcGMi41DYyM-be4de2.png`,
+                                                  srcSet: `../../assets/images/wt1YuQ5MmjnVwKDYcGMi41DYyM-620bfc.png 703w,../../assets/images/wt1YuQ5MmjnVwKDYcGMi41DYyM-0ee9ff.png 1407w,../../assets/images/wt1YuQ5MmjnVwKDYcGMi41DYyM.png 2814w,../../assets/images/wt1YuQ5MmjnVwKDYcGMi41DYyM-be4de2.png 7152w`,
+                                                },
+                                                className: `framer-t3njru`,
+                                                "data-framer-name": `Image`,
+                                                fitImageDimension: `height`,
+                                              }),
+                                            }),
+                                          ],
+                                        }),
+                                      ],
+                                    }),
+                                  ],
+                                }),
+                                /*#__PURE__*/ i(l.div, {
+                                  className: `framer-1w0kn7b`,
+                                  children: [
+                                    /*#__PURE__*/ a(C, {
+                                      __fromCanvasComponent: !0,
+                                      children: /*#__PURE__*/ a(r, {
+                                        children: /*#__PURE__*/ a(`h3`, {
+                                          className: `framer-styles-preset-bdezu4`,
+                                          "data-styles-preset": `TWYWOtjjp`,
+                                          dir: `auto`,
+                                          children: /*#__PURE__*/ a(`strong`, {
+                                            children: `Prototypes and Mockups`,
+                                          }),
+                                        }),
+                                      }),
+                                      className: `framer-1ycj9ed`,
+                                      fonts: [`Inter`, `Inter-Bold`],
+                                      id: L,
+                                      ref: R,
+                                      verticalAlignment: `top`,
+                                      withExternalLayout: !0,
+                                    }),
+                                    /*#__PURE__*/ i(l.div, {
+                                      className: `framer-s0qej`,
+                                      "data-border": !0,
+                                      children: [
+                                        /*#__PURE__*/ a(C, {
+                                          __fromCanvasComponent: !0,
+                                          children: /*#__PURE__*/ a(r, {
+                                            children: /*#__PURE__*/ a(`h2`, {
+                                              className: `framer-styles-preset-qvrn1k`,
+                                              "data-styles-preset": `ksQr_zVQP`,
+                                              dir: `auto`,
+                                              style: { "--framer-text-alignment": `left` },
+                                              children: /*#__PURE__*/ a(`strong`, {
+                                                children: `Navigation and Landing`,
+                                              }),
+                                            }),
+                                          }),
+                                          className: `framer-aa1zor`,
+                                          fonts: [`Inter`, `Inter-Bold`],
+                                          verticalAlignment: `top`,
+                                          withExternalLayout: !0,
+                                        }),
+                                        /*#__PURE__*/ a(C, {
+                                          __fromCanvasComponent: !0,
+                                          children: /*#__PURE__*/ i(r, {
+                                            children: [
+                                              /*#__PURE__*/ a(`p`, {
+                                                className: `framer-styles-preset-12u88cl`,
+                                                "data-styles-preset": `HftgEsO0a`,
+                                                dir: `auto`,
+                                                children: `We simplified navigation by removing unnecessary decision points and automating medical facility selection through user settings. This allowed us to reduce a complex, multi-step process to two primary actions: selecting a facility and creating enrollments.`,
+                                              }),
+                                              /*#__PURE__*/ a(`p`, {
+                                                className: `framer-styles-preset-12u88cl`,
+                                                "data-styles-preset": `HftgEsO0a`,
+                                                dir: `auto`,
+                                                children: `As a result, we refocused the application on managing enrollments, the core workflow, significantly reducing cognitive load for users. This led to improved task completion rates and a noticeable decrease in user frustration.`,
+                                              }),
+                                            ],
+                                          }),
+                                          className: `framer-gix1aq`,
+                                          fonts: [`Inter`],
+                                          verticalAlignment: `top`,
+                                          withExternalLayout: !0,
+                                        }),
+                                        /*#__PURE__*/ i(l.div, {
+                                          className: `framer-12fwxri`,
+                                          children: [
+                                            /*#__PURE__*/ i(l.div, {
+                                              className: `framer-1s2vd8w`,
+                                              children: [
+                                                /*#__PURE__*/ a(C, {
+                                                  __fromCanvasComponent: !0,
+                                                  children: /*#__PURE__*/ a(r, {
+                                                    children: /*#__PURE__*/ a(`h3`, {
+                                                      className: `framer-styles-preset-bdezu4`,
+                                                      "data-styles-preset": `TWYWOtjjp`,
+                                                      dir: `auto`,
+                                                      children: /*#__PURE__*/ a(`strong`, {
+                                                        children: `Original Workflow`,
+                                                      }),
+                                                    }),
+                                                  }),
+                                                  className: `framer-52a40b`,
+                                                  fonts: [`Inter`, `Inter-Bold`],
+                                                  verticalAlignment: `top`,
+                                                  withExternalLayout: !0,
+                                                }),
+                                                /*#__PURE__*/ a(C, {
+                                                  __fromCanvasComponent: !0,
+                                                  children: /*#__PURE__*/ i(r, {
+                                                    children: [
+                                                      /*#__PURE__*/ a(`p`, {
+                                                        className: `framer-styles-preset-12u88cl`,
+                                                        "data-styles-preset": `HftgEsO0a`,
+                                                        dir: `auto`,
+                                                        children: `The original homepage lacked a clear and logical flow. Users were required to select a facility before starting an enrollment, but this dependency was not clearly communicated. The facility search experience itself was also overly complex and difficult to navigate.`,
+                                                      }),
+                                                      /*#__PURE__*/ a(`p`, {
+                                                        className: `framer-styles-preset-12u88cl`,
+                                                        "data-styles-preset": `HftgEsO0a`,
+                                                        dir: `auto`,
+                                                        children: `The primary call to action, “Create Enrollment,” redirected users into this unclear flow, often causing confusion and drop-off. Many users abandoned the process or attempted to find alternative paths to complete the same task.`,
+                                                      }),
+                                                    ],
+                                                  }),
+                                                  className: `framer-12r9z6y`,
+                                                  fonts: [`Inter`],
+                                                  verticalAlignment: `top`,
+                                                  withExternalLayout: !0,
+                                                }),
+                                                /*#__PURE__*/ a(l.div, {
+                                                  className: `framer-1qr6vfi`,
+                                                  children: /*#__PURE__*/ a(E, {
+                                                    children: /*#__PURE__*/ a(w, {
+                                                      className: `framer-ozni4m-container`,
+                                                      isAuthoredByUser: !0,
+                                                      isModuleExternal: !0,
+                                                      nodeId: `pHkP1_Yx3`,
+                                                      rendersWithMotion: !0,
+                                                      scopeId: `wcki3OcY_`,
+                                                      children: /*#__PURE__*/ a(B, {
+                                                        backgroundColor: `rgba(0, 0, 0, 0)`,
+                                                        borderRadius: 8,
+                                                        bottomLeftRadius: 8,
+                                                        bottomRightRadius: 8,
+                                                        controls: !0,
+                                                        height: `100%`,
+                                                        id: `pHkP1_Yx3`,
+                                                        isMixedBorderRadius: !1,
+                                                        layoutId: `pHkP1_Yx3`,
+                                                        loop: !1,
+                                                        muted: !1,
+                                                        objectFit: `scale-down`,
+                                                        playing: !1,
+                                                        posterEnabled: !1,
+                                                        srcFile: `../../assets/misc/ciAGlfVDxtAqYuPy3IJn5Q06h0.mp4`,
+                                                        srcType: `Upload`,
+                                                        srcUrl: `https://framerusercontent.com/assets/MLWPbW1dUQawJLhhun3dBwpgJak.mp4`,
+                                                        startTime: 0,
+                                                        style: { width: `100%` },
+                                                        topLeftRadius: 8,
+                                                        topRightRadius: 8,
+                                                        volume: 25,
+                                                        width: `100%`,
+                                                      }),
+                                                    }),
+                                                  }),
+                                                }),
+                                              ],
+                                            }),
+                                            /*#__PURE__*/ i(l.div, {
+                                              className: `framer-rh31x1`,
+                                              children: [
+                                                /*#__PURE__*/ a(C, {
+                                                  __fromCanvasComponent: !0,
+                                                  children: /*#__PURE__*/ a(r, {
+                                                    children: /*#__PURE__*/ a(`h3`, {
+                                                      className: `framer-styles-preset-bdezu4`,
+                                                      "data-styles-preset": `TWYWOtjjp`,
+                                                      dir: `auto`,
+                                                      children: /*#__PURE__*/ a(`strong`, {
+                                                        children: `New Navigation and Landing`,
+                                                      }),
+                                                    }),
+                                                  }),
+                                                  className: `framer-v7ei25`,
+                                                  fonts: [`Inter`, `Inter-Bold`],
+                                                  verticalAlignment: `top`,
+                                                  withExternalLayout: !0,
+                                                }),
+                                                /*#__PURE__*/ a(C, {
+                                                  __fromCanvasComponent: !0,
+                                                  children: /*#__PURE__*/ i(r, {
+                                                    children: [
+                                                      /*#__PURE__*/ a(`p`, {
+                                                        className: `framer-styles-preset-12u88cl`,
+                                                        "data-styles-preset": `HftgEsO0a`,
+                                                        dir: `auto`,
+                                                        children: `In the new workflow, facility selection occurs through user settings before the user enters the main interface. This breaks the process into clear, sequential steps and reduces cognitive load, ensuring that users always start in the correct context. To make the process even more efficient, users can save a default facility, so they only need to select a new one when necessary.`,
+                                                      }),
+                                                      /*#__PURE__*/ a(`p`, {
+                                                        className: `framer-styles-preset-12u88cl`,
+                                                        "data-styles-preset": `HftgEsO0a`,
+                                                        dir: `auto`,
+                                                        children: `Once inside, users land directly in the selected facility’s workspace, where they can quickly enroll with new payers, access customized reporting, or receive instant assistance from the integrated AI support bot.`,
+                                                      }),
+                                                    ],
+                                                  }),
+                                                  className: `framer-1uezng5`,
+                                                  fonts: [`Inter`],
+                                                  verticalAlignment: `top`,
+                                                  withExternalLayout: !0,
+                                                }),
+                                                /*#__PURE__*/ a(l.div, {
+                                                  className: `framer-1hiamb8`,
+                                                  children: /*#__PURE__*/ a(E, {
+                                                    children: /*#__PURE__*/ a(w, {
+                                                      className: `framer-1h5pzmg-container`,
+                                                      isAuthoredByUser: !0,
+                                                      isModuleExternal: !0,
+                                                      nodeId: `dZ5SihUsM`,
+                                                      rendersWithMotion: !0,
+                                                      scopeId: `wcki3OcY_`,
+                                                      children: /*#__PURE__*/ a(B, {
+                                                        backgroundColor: `rgba(0, 0, 0, 0)`,
+                                                        borderRadius: 8,
+                                                        bottomLeftRadius: 8,
+                                                        bottomRightRadius: 8,
+                                                        controls: !0,
+                                                        height: `100%`,
+                                                        id: `dZ5SihUsM`,
+                                                        isMixedBorderRadius: !1,
+                                                        layoutId: `dZ5SihUsM`,
+                                                        loop: !1,
+                                                        muted: !1,
+                                                        objectFit: `scale-down`,
+                                                        playing: !1,
+                                                        posterEnabled: !1,
+                                                        srcFile: `../../assets/misc/kDLLqBXVDJKpyeMNdCGx4oiMzk.mp4`,
+                                                        srcType: `Upload`,
+                                                        srcUrl: `https://framerusercontent.com/assets/MLWPbW1dUQawJLhhun3dBwpgJak.mp4`,
+                                                        startTime: 0,
+                                                        style: { width: `100%` },
+                                                        topLeftRadius: 8,
+                                                        topRightRadius: 8,
+                                                        volume: 25,
+                                                        width: `100%`,
+                                                      }),
+                                                    }),
+                                                  }),
+                                                }),
+                                              ],
+                                            }),
+                                          ],
+                                        }),
+                                      ],
+                                    }),
+                                    /*#__PURE__*/ i(l.div, {
+                                      className: `framer-1pjm8yo`,
+                                      "data-border": !0,
+                                      children: [
+                                        /*#__PURE__*/ a(C, {
+                                          __fromCanvasComponent: !0,
+                                          children: /*#__PURE__*/ a(r, {
+                                            children: /*#__PURE__*/ a(`h2`, {
+                                              className: `framer-styles-preset-qvrn1k`,
+                                              "data-styles-preset": `ksQr_zVQP`,
+                                              dir: `auto`,
+                                              style: { "--framer-text-alignment": `left` },
+                                              children: `Enrollments Management Workflow`,
+                                            }),
+                                          }),
+                                          className: `framer-1w4h566`,
+                                          fonts: [`Inter`],
+                                          verticalAlignment: `top`,
+                                          withExternalLayout: !0,
+                                        }),
+                                        /*#__PURE__*/ a(C, {
+                                          __fromCanvasComponent: !0,
+                                          children: /*#__PURE__*/ i(r, {
+                                            children: [
+                                              /*#__PURE__*/ a(`p`, {
+                                                className: `framer-styles-preset-12u88cl`,
+                                                "data-styles-preset": `HftgEsO0a`,
+                                                dir: `auto`,
+                                                children: `The Enrollments page serves as the primary workspace for managing provider enrollments and plays a critical role in helping users stay organized and move enrollments to completion.`,
+                                              }),
+                                              /*#__PURE__*/ a(`p`, {
+                                                className: `framer-styles-preset-12u88cl`,
+                                                "data-styles-preset": `HftgEsO0a`,
+                                                dir: `auto`,
+                                                children: `The original design was difficult to scan and manage. Key information was often hidden, and excessive horizontal scrolling made it challenging for users to track progress or take action efficiently.`,
+                                              }),
+                                              /*#__PURE__*/ a(`p`, {
+                                                className: `framer-styles-preset-12u88cl`,
+                                                "data-styles-preset": `HftgEsO0a`,
+                                                dir: `auto`,
+                                                children: `The redesign transformed the page into a clear, action-oriented worklist. Enrollment status is now visible at a glance, users can perform bulk actions, and notes simplify follow-up. Each enrollment moves through eight distinct statuses across preparation and post-submission phases. To reduce complexity, statuses are grouped by action type, with color highlighting emphasizing required next steps rather than individual states. Submitted enrollments are further distinguished with a filled form icon for quick identification.`,
+                                              }),
+                                              /*#__PURE__*/ a(`p`, {
+                                                className: `framer-styles-preset-12u88cl`,
+                                                "data-styles-preset": `HftgEsO0a`,
+                                                dir: `auto`,
+                                                children: `An enhanced filtering system allows users to quickly narrow down enrollments that need attention, while saved views provide fast access to commonly used filter presets. Together, these improvements streamline workflows, reduce cognitive load, and help users move enrollments forward more efficiently.`,
+                                              }),
+                                            ],
+                                          }),
+                                          className: `framer-1sq89ec`,
+                                          fonts: [`Inter`],
+                                          verticalAlignment: `top`,
+                                          withExternalLayout: !0,
+                                        }),
+                                        /*#__PURE__*/ i(l.div, {
+                                          className: `framer-6493yz`,
+                                          children: [
+                                            /*#__PURE__*/ i(l.div, {
+                                              className: `framer-1hyfjc`,
+                                              children: [
+                                                /*#__PURE__*/ a(C, {
+                                                  __fromCanvasComponent: !0,
+                                                  children: /*#__PURE__*/ a(r, {
+                                                    children: /*#__PURE__*/ a(`h3`, {
+                                                      className: `framer-styles-preset-bdezu4`,
+                                                      "data-styles-preset": `TWYWOtjjp`,
+                                                      dir: `auto`,
+                                                      children: /*#__PURE__*/ a(`strong`, {
+                                                        children: `Original Enrollments Page`,
+                                                      }),
+                                                    }),
+                                                  }),
+                                                  className: `framer-1gkg71c`,
+                                                  fonts: [`Inter`, `Inter-Bold`],
+                                                  verticalAlignment: `top`,
+                                                  withExternalLayout: !0,
+                                                }),
+                                                /*#__PURE__*/ a(C, {
+                                                  __fromCanvasComponent: !0,
+                                                  children: /*#__PURE__*/ a(r, {
+                                                    children: /*#__PURE__*/ a(`p`, {
+                                                      className: `framer-styles-preset-12u88cl`,
+                                                      "data-styles-preset": `HftgEsO0a`,
+                                                      dir: `auto`,
+                                                      children: `The original Enrollments page presented users with an overwhelming number of search and filter options, most of which were irrelevant. Key information and actions were buried in a wide, cluttered table, making it difficult to locate updates or complete critical tasks efficiently. The lack of focus and poor information hierarchy frequently frustrated users and reduced overall page efficiency.`,
+                                                    }),
+                                                  }),
+                                                  className: `framer-mx9qg3`,
+                                                  fonts: [`Inter`],
+                                                  verticalAlignment: `top`,
+                                                  withExternalLayout: !0,
+                                                }),
+                                                /*#__PURE__*/ a(l.div, {
+                                                  className: `framer-1luhb7t`,
+                                                  children: /*#__PURE__*/ a(E, {
+                                                    children: /*#__PURE__*/ a(w, {
+                                                      className: `framer-m0ymge-container`,
+                                                      isAuthoredByUser: !0,
+                                                      isModuleExternal: !0,
+                                                      nodeId: `NgBDNxEfZ`,
+                                                      rendersWithMotion: !0,
+                                                      scopeId: `wcki3OcY_`,
+                                                      children: /*#__PURE__*/ a(B, {
+                                                        backgroundColor: `rgba(0, 0, 0, 0)`,
+                                                        borderRadius: 8,
+                                                        bottomLeftRadius: 8,
+                                                        bottomRightRadius: 8,
+                                                        controls: !0,
+                                                        height: `100%`,
+                                                        id: `NgBDNxEfZ`,
+                                                        isMixedBorderRadius: !1,
+                                                        layoutId: `NgBDNxEfZ`,
+                                                        loop: !1,
+                                                        muted: !1,
+                                                        objectFit: `scale-down`,
+                                                        playing: !1,
+                                                        posterEnabled: !1,
+                                                        srcFile: `../../assets/misc/ciAGlfVDxtAqYuPy3IJn5Q06h0.mp4`,
+                                                        srcType: `Upload`,
+                                                        srcUrl: `https://framerusercontent.com/assets/MLWPbW1dUQawJLhhun3dBwpgJak.mp4`,
+                                                        startTime: 0,
+                                                        style: { width: `100%` },
+                                                        topLeftRadius: 8,
+                                                        topRightRadius: 8,
+                                                        volume: 25,
+                                                        width: `100%`,
+                                                      }),
+                                                    }),
+                                                  }),
+                                                }),
+                                              ],
+                                            }),
+                                            /*#__PURE__*/ i(l.div, {
+                                              className: `framer-azom93`,
+                                              children: [
+                                                /*#__PURE__*/ a(C, {
+                                                  __fromCanvasComponent: !0,
+                                                  children: /*#__PURE__*/ a(r, {
+                                                    children: /*#__PURE__*/ a(`h3`, {
+                                                      className: `framer-styles-preset-bdezu4`,
+                                                      "data-styles-preset": `TWYWOtjjp`,
+                                                      dir: `auto`,
+                                                      children: /*#__PURE__*/ a(`strong`, {
+                                                        children: `New Enrollment Landing`,
+                                                      }),
+                                                    }),
+                                                  }),
+                                                  className: `framer-zg27vj`,
+                                                  fonts: [`Inter`, `Inter-Bold`],
+                                                  verticalAlignment: `top`,
+                                                  withExternalLayout: !0,
+                                                }),
+                                                /*#__PURE__*/ a(C, {
+                                                  __fromCanvasComponent: !0,
+                                                  children: /*#__PURE__*/ a(r, {
+                                                    children: /*#__PURE__*/ a(`p`, {
+                                                      className: `framer-styles-preset-12u88cl`,
+                                                      "data-styles-preset": `HftgEsO0a`,
+                                                      dir: `auto`,
+                                                      children: `In the new design, we prioritized a clean and intuitive presentation of the data. While maintaining continuity with the original experience, we enhanced the elements that mattered most. Search functionality was simplified, with the added ability to save views for frequently used queries. Key information was organized into a clear, easy-to-scan table, while still allowing users to customize it for less common scenarios. Bulk actions were introduced, enabling users to perform operations on multiple enrollments efficiently without being overwhelmed by a clutter of buttons.`,
+                                                    }),
+                                                  }),
+                                                  className: `framer-1pqkt8e`,
+                                                  fonts: [`Inter`],
+                                                  verticalAlignment: `top`,
+                                                  withExternalLayout: !0,
+                                                }),
+                                                /*#__PURE__*/ a(l.div, {
+                                                  className: `framer-1khobuv`,
+                                                  children: /*#__PURE__*/ a(E, {
+                                                    children: /*#__PURE__*/ a(w, {
+                                                      className: `framer-17ornf-container`,
+                                                      isAuthoredByUser: !0,
+                                                      isModuleExternal: !0,
+                                                      nodeId: `iidu8nOXt`,
+                                                      rendersWithMotion: !0,
+                                                      scopeId: `wcki3OcY_`,
+                                                      children: /*#__PURE__*/ a(B, {
+                                                        backgroundColor: `rgba(0, 0, 0, 0)`,
+                                                        borderRadius: 8,
+                                                        bottomLeftRadius: 8,
+                                                        bottomRightRadius: 8,
+                                                        controls: !0,
+                                                        height: `100%`,
+                                                        id: `iidu8nOXt`,
+                                                        isMixedBorderRadius: !1,
+                                                        layoutId: `iidu8nOXt`,
+                                                        loop: !0,
+                                                        muted: !1,
+                                                        objectFit: `scale-down`,
+                                                        playing: !1,
+                                                        posterEnabled: !1,
+                                                        srcFile: `../../assets/misc/rXd8pZgfaTQfIipA99pvEdjcZEs.mp4`,
+                                                        srcType: `Upload`,
+                                                        srcUrl: `https://framerusercontent.com/assets/MLWPbW1dUQawJLhhun3dBwpgJak.mp4`,
+                                                        startTime: 0,
+                                                        style: { width: `100%` },
+                                                        topLeftRadius: 8,
+                                                        topRightRadius: 8,
+                                                        volume: 25,
+                                                        width: `100%`,
+                                                      }),
+                                                    }),
+                                                  }),
+                                                }),
+                                              ],
+                                            }),
+                                          ],
+                                        }),
+                                      ],
+                                    }),
+                                    /*#__PURE__*/ i(l.div, {
+                                      className: `framer-wuz4jr`,
+                                      "data-border": !0,
+                                      children: [
+                                        /*#__PURE__*/ a(C, {
+                                          __fromCanvasComponent: !0,
+                                          children: /*#__PURE__*/ a(r, {
+                                            children: /*#__PURE__*/ a(`h2`, {
+                                              className: `framer-styles-preset-qvrn1k`,
+                                              "data-styles-preset": `ksQr_zVQP`,
+                                              dir: `auto`,
+                                              style: { "--framer-text-alignment": `left` },
+                                              children: /*#__PURE__*/ a(`strong`, {
+                                                children: `Redesign of the Create Enrollment Workflow`,
+                                              }),
+                                            }),
+                                          }),
+                                          className: `framer-1h8dzn9`,
+                                          fonts: [`Inter`, `Inter-Bold`],
+                                          verticalAlignment: `top`,
+                                          withExternalLayout: !0,
+                                        }),
+                                        /*#__PURE__*/ a(C, {
+                                          __fromCanvasComponent: !0,
+                                          children: /*#__PURE__*/ i(r, {
+                                            children: [
+                                              /*#__PURE__*/ a(`p`, {
+                                                className: `framer-styles-preset-12u88cl`,
+                                                "data-styles-preset": `HftgEsO0a`,
+                                                dir: `auto`,
+                                                children: `The primary challenge of the Create Enrollment workflow was the sheer number of variations users could encounter. In earlier versions, all variations were presented upfront, resulting in excessive number of steps and unnecessary complexity for most users.`,
+                                              }),
+                                              /*#__PURE__*/ a(`p`, {
+                                                className: `framer-styles-preset-12u88cl`,
+                                                "data-styles-preset": `HftgEsO0a`,
+                                                dir: `auto`,
+                                                children: `For the new self-service model, we took a different approach. We identified three core steps required for all enrollments, covering approximately 80% of use cases. These steps form the primary flow. For the remaining edge cases, we layered in contextual alerts, progressive disclosure, and validation to surface additional requirements only when needed.`,
+                                              }),
+                                              /*#__PURE__*/ a(`p`, {
+                                                className: `framer-styles-preset-12u88cl`,
+                                                "data-styles-preset": `HftgEsO0a`,
+                                                dir: `auto`,
+                                                children: `This approach significantly reduced cognitive load while preserving full functionality. In future iterations, we plan to introduce a planning tool that allows users to group enrollments, making it easier to organize, track, and manage the process at scale.`,
+                                              }),
+                                            ],
+                                          }),
+                                          className: `framer-1xd7d1y`,
+                                          fonts: [`Inter`],
+                                          verticalAlignment: `top`,
+                                          withExternalLayout: !0,
+                                        }),
+                                        /*#__PURE__*/ a(l.div, {
+                                          className: `framer-1oj5x0k`,
+                                          children: /*#__PURE__*/ i(l.div, {
+                                            className: `framer-1xn545n`,
+                                            children: [
+                                              /*#__PURE__*/ a(C, {
+                                                __fromCanvasComponent: !0,
+                                                children: /*#__PURE__*/ a(r, {
+                                                  children: /*#__PURE__*/ a(`h3`, {
+                                                    className: `framer-styles-preset-bdezu4`,
+                                                    "data-styles-preset": `TWYWOtjjp`,
+                                                    dir: `auto`,
+                                                    children: /*#__PURE__*/ a(`strong`, {
+                                                      children: `New Create Enrollment Workflow`,
+                                                    }),
+                                                  }),
+                                                }),
+                                                className: `framer-1unzz6m`,
+                                                fonts: [`Inter`, `Inter-Bold`],
+                                                verticalAlignment: `top`,
+                                                withExternalLayout: !0,
+                                              }),
+                                              /*#__PURE__*/ a(C, {
+                                                __fromCanvasComponent: !0,
+                                                children: /*#__PURE__*/ i(r, {
+                                                  children: [
+                                                    /*#__PURE__*/ a(`p`, {
+                                                      className: `framer-styles-preset-12u88cl`,
+                                                      "data-styles-preset": `HftgEsO0a`,
+                                                      dir: `auto`,
+                                                      children: `The new workflow is streamlined into three clear steps:`,
+                                                    }),
+                                                    /*#__PURE__*/ i(`p`, {
+                                                      className: `framer-styles-preset-12u88cl`,
+                                                      "data-styles-preset": `HftgEsO0a`,
+                                                      dir: `auto`,
+                                                      children: [
+                                                        /*#__PURE__*/ a(`strong`, {
+                                                          children: `Step 1 – Select Provider:`,
+                                                        }),
+                                                        ` Users select an existing NPI (National Provider Identifier) from their saved list or creates a new one using a built-in subflow. During this step, they also choose the transaction types for enrollment.`,
+                                                      ],
+                                                    }),
+                                                    /*#__PURE__*/ i(`p`, {
+                                                      className: `framer-styles-preset-12u88cl`,
+                                                      "data-styles-preset": `HftgEsO0a`,
+                                                      dir: `auto`,
+                                                      children: [
+                                                        /*#__PURE__*/ a(`strong`, {
+                                                          children: `Step 2 – Complete Enrollment Form:`,
+                                                        }),
+                                                        ` The system generates a dynamic form that consolidates all required information for the selected enrollments into a single experience. The form is prefilled with previously saved data based on the selected NPI. While all fields are required for submission, users can save incomplete enrollments if certain information is not yet available.`,
+                                                      ],
+                                                    }),
+                                                    /*#__PURE__*/ i(`p`, {
+                                                      className: `framer-styles-preset-12u88cl`,
+                                                      "data-styles-preset": `HftgEsO0a`,
+                                                      dir: `auto`,
+                                                      children: [
+                                                        /*#__PURE__*/ a(`strong`, {
+                                                          children: `Step 3 – Review and Submit:`,
+                                                        }),
+                                                        ` Users review the generated enrollment records and submit those that are ready. Remaining enrollments can be saved and completed later, ensuring flexibility while maintaining workflow continuity.`,
+                                                      ],
+                                                    }),
+                                                  ],
+                                                }),
+                                                className: `framer-1x5jeej`,
+                                                fonts: [`Inter`, `Inter-Bold`],
+                                                verticalAlignment: `top`,
+                                                withExternalLayout: !0,
+                                              }),
+                                              /*#__PURE__*/ i(l.div, {
+                                                className: `framer-yb8856`,
+                                                children: [
+                                                  /*#__PURE__*/ a(C, {
+                                                    __fromCanvasComponent: !0,
+                                                    children: /*#__PURE__*/ a(r, {
+                                                      children: /*#__PURE__*/ a(`p`, {
+                                                        className: `framer-styles-preset-1504gar`,
+                                                        "data-styles-preset": `rHJW28QP9`,
+                                                        dir: `auto`,
+                                                        children: /*#__PURE__*/ a(`strong`, {
+                                                          children: `Concepting`,
+                                                        }),
+                                                      }),
+                                                    }),
+                                                    className: `framer-17s0nxe`,
+                                                    fonts: [`Inter`, `Inter-Bold`],
+                                                    verticalAlignment: `top`,
+                                                    withExternalLayout: !0,
+                                                  }),
+                                                  /*#__PURE__*/ a(_, {
+                                                    breakpoint: O,
+                                                    overrides: {
+                                                      CpJoOsDxW: {
+                                                        background: {
+                                                          alt: ``,
+                                                          fit: `fit`,
+                                                          intrinsicHeight: 821,
+                                                          intrinsicWidth: 1244,
+                                                          loading: d(
+                                                            (m?.y || 0) +
+                                                              0 +
+                                                              0 +
+                                                              168 +
+                                                              0 +
+                                                              0 +
+                                                              0 +
+                                                              6482.7 +
+                                                              0 +
+                                                              2656 +
+                                                              24 +
+                                                              484.5 +
+                                                              0 +
+                                                              0 +
+                                                              0 +
+                                                              592.8 +
+                                                              0 +
+                                                              120
+                                                          ),
+                                                          pixelHeight: 726,
+                                                          pixelWidth: 2400,
+                                                          positionX: `center`,
+                                                          positionY: `center`,
+                                                          src: `../../assets/images/rhN5Obp8h7Smebedl86NzaAOic-fa87c6.png`,
+                                                          srcSet: `../../assets/images/rhN5Obp8h7Smebedl86NzaAOic-1c5ce6.png 512w,../../assets/images/rhN5Obp8h7Smebedl86NzaAOic-6700e5.png 1024w,../../assets/images/rhN5Obp8h7Smebedl86NzaAOic.png 2048w,../../assets/images/rhN5Obp8h7Smebedl86NzaAOic-fa87c6.png 2400w`,
+                                                        },
+                                                      },
+                                                      DEJr44GVb: {
+                                                        background: {
+                                                          alt: ``,
+                                                          fit: `fit`,
+                                                          intrinsicHeight: 821,
+                                                          intrinsicWidth: 1244,
+                                                          loading: d(
+                                                            (m?.y || 0) +
+                                                              0 +
+                                                              800 +
+                                                              32 +
+                                                              77.2 +
+                                                              0 +
+                                                              0 +
+                                                              0 +
+                                                              6500.7 +
+                                                              0 +
+                                                              2656 +
+                                                              24 +
+                                                              484.5 +
+                                                              0 +
+                                                              0 +
+                                                              0 +
+                                                              592.8 +
+                                                              0 +
+                                                              120
+                                                          ),
+                                                          pixelHeight: 726,
+                                                          pixelWidth: 2400,
+                                                          positionX: `center`,
+                                                          positionY: `center`,
+                                                          sizes: `calc(${m?.width || `100vw`} - 112px)`,
+                                                          src: `../../assets/images/rhN5Obp8h7Smebedl86NzaAOic-fa87c6.png`,
+                                                          srcSet: `../../assets/images/rhN5Obp8h7Smebedl86NzaAOic-1c5ce6.png 512w,../../assets/images/rhN5Obp8h7Smebedl86NzaAOic-6700e5.png 1024w,../../assets/images/rhN5Obp8h7Smebedl86NzaAOic.png 2048w,../../assets/images/rhN5Obp8h7Smebedl86NzaAOic-fa87c6.png 2400w`,
+                                                        },
+                                                      },
+                                                      P1J7WvMcG: {
+                                                        background: {
+                                                          alt: ``,
+                                                          fit: `fit`,
+                                                          intrinsicHeight: 821,
+                                                          intrinsicWidth: 1244,
+                                                          loading: d(
+                                                            (m?.y || 0) +
+                                                              0 +
+                                                              800 +
+                                                              24 +
+                                                              0 +
+                                                              0 +
+                                                              53.2 +
+                                                              0 +
+                                                              4746.7 +
+                                                              0 +
+                                                              2640 +
+                                                              16 +
+                                                              484.5 +
+                                                              0 +
+                                                              0 +
+                                                              0 +
+                                                              592.8 +
+                                                              0 +
+                                                              120
+                                                          ),
+                                                          pixelHeight: 726,
+                                                          pixelWidth: 2400,
+                                                          positionX: `center`,
+                                                          positionY: `center`,
+                                                          sizes: `calc(${m?.width || `100vw`} - 56px)`,
+                                                          src: `../../assets/images/rhN5Obp8h7Smebedl86NzaAOic-fa87c6.png`,
+                                                          srcSet: `../../assets/images/rhN5Obp8h7Smebedl86NzaAOic-1c5ce6.png 512w,../../assets/images/rhN5Obp8h7Smebedl86NzaAOic-6700e5.png 1024w,../../assets/images/rhN5Obp8h7Smebedl86NzaAOic.png 2048w,../../assets/images/rhN5Obp8h7Smebedl86NzaAOic-fa87c6.png 2400w`,
+                                                        },
+                                                      },
+                                                    },
+                                                    children: /*#__PURE__*/ a(T, {
+                                                      background: {
+                                                        alt: ``,
+                                                        fit: `fit`,
+                                                        intrinsicHeight: 821,
+                                                        intrinsicWidth: 1244,
+                                                        loading: d(
+                                                          (m?.y || 0) +
+                                                            0 +
+                                                            0 +
+                                                            168 +
+                                                            0 +
+                                                            0 +
+                                                            0 +
+                                                            7320.7 +
+                                                            0 +
+                                                            2656 +
+                                                            24 +
+                                                            484.5 +
+                                                            0 +
+                                                            0 +
+                                                            0 +
+                                                            592.8 +
+                                                            0 +
+                                                            120
+                                                        ),
+                                                        pixelHeight: 726,
+                                                        pixelWidth: 2400,
+                                                        positionX: `center`,
+                                                        positionY: `center`,
+                                                        src: `../../assets/images/rhN5Obp8h7Smebedl86NzaAOic-fa87c6.png`,
+                                                        srcSet: `../../assets/images/rhN5Obp8h7Smebedl86NzaAOic-1c5ce6.png 512w,../../assets/images/rhN5Obp8h7Smebedl86NzaAOic-6700e5.png 1024w,../../assets/images/rhN5Obp8h7Smebedl86NzaAOic.png 2048w,../../assets/images/rhN5Obp8h7Smebedl86NzaAOic-fa87c6.png 2400w`,
+                                                      },
+                                                      className: `framer-jzwwqf`,
+                                                      "data-framer-name": `Image`,
+                                                      fitImageDimension: `height`,
+                                                    }),
+                                                  }),
+                                                ],
+                                              }),
+                                              /*#__PURE__*/ i(l.div, {
+                                                className: `framer-rkp30g`,
+                                                children: [
+                                                  /*#__PURE__*/ a(C, {
+                                                    __fromCanvasComponent: !0,
+                                                    children: /*#__PURE__*/ a(r, {
+                                                      children: /*#__PURE__*/ a(`p`, {
+                                                        className: `framer-styles-preset-1504gar`,
+                                                        "data-styles-preset": `rHJW28QP9`,
+                                                        dir: `auto`,
+                                                        children: /*#__PURE__*/ a(`strong`, {
+                                                          children: `Prototype`,
+                                                        }),
+                                                      }),
+                                                    }),
+                                                    className: `framer-1mfmp2l`,
+                                                    fonts: [`Inter`, `Inter-Bold`],
+                                                    verticalAlignment: `top`,
+                                                    withExternalLayout: !0,
+                                                  }),
+                                                  /*#__PURE__*/ a(E, {
+                                                    children: /*#__PURE__*/ a(w, {
+                                                      className: `framer-4ggdf-container`,
+                                                      isAuthoredByUser: !0,
+                                                      isModuleExternal: !0,
+                                                      nodeId: `lO6XK7oA9`,
+                                                      rendersWithMotion: !0,
+                                                      scopeId: `wcki3OcY_`,
+                                                      children: /*#__PURE__*/ a(B, {
+                                                        backgroundColor: `rgba(0, 0, 0, 0)`,
+                                                        borderRadius: 8,
+                                                        bottomLeftRadius: 8,
+                                                        bottomRightRadius: 8,
+                                                        controls: !0,
+                                                        height: `100%`,
+                                                        id: `lO6XK7oA9`,
+                                                        isMixedBorderRadius: !1,
+                                                        layoutId: `lO6XK7oA9`,
+                                                        loop: !1,
+                                                        muted: !1,
+                                                        objectFit: `scale-down`,
+                                                        playing: !1,
+                                                        posterEnabled: !1,
+                                                        srcFile: `../../assets/misc/yKFZSM31Gl8Mn2T7s6Yj4bRisOE.mp4`,
+                                                        srcType: `Upload`,
+                                                        srcUrl: `https://framerusercontent.com/assets/MLWPbW1dUQawJLhhun3dBwpgJak.mp4`,
+                                                        startTime: 0,
+                                                        style: { width: `100%` },
+                                                        topLeftRadius: 8,
+                                                        topRightRadius: 8,
+                                                        volume: 25,
+                                                        width: `100%`,
+                                                      }),
+                                                    }),
+                                                  }),
+                                                ],
+                                              }),
+                                            ],
+                                          }),
+                                        }),
+                                      ],
+                                    }),
+                                  ],
+                                }),
+                              ],
+                            }),
+                            _e() &&
+                              /*#__PURE__*/ i(l.div, {
+                                className: `framer-1jw0vn3 hidden-nt5dje hidden-y7clc5 hidden-1nirddn`,
+                                children: [
+                                  /*#__PURE__*/ a(l.div, {
+                                    className: `framer-gbshwo`,
+                                    children: /*#__PURE__*/ a(C, {
+                                      __fromCanvasComponent: !0,
+                                      children: /*#__PURE__*/ a(r, {
+                                        children: /*#__PURE__*/ a(`h1`, {
+                                          className: `framer-styles-preset-p50exy`,
+                                          "data-styles-preset": `U3NyadGC3`,
+                                          dir: `auto`,
+                                          children: `Enrollments`,
+                                        }),
+                                      }),
+                                      className: `framer-6vm7at`,
+                                      fonts: [`Inter`],
+                                      verticalAlignment: `top`,
+                                      withExternalLayout: !0,
+                                    }),
+                                  }),
+                                  /*#__PURE__*/ a(x, {
+                                    href: { webPageId: `Yk0caFFXD` },
+                                    motionChild: !0,
+                                    nodeId: `ZOK_4OF2O`,
+                                    openInNewTab: !1,
+                                    scopeId: `wcki3OcY_`,
+                                    children: /*#__PURE__*/ a(l.a, {
+                                      className: `framer-wmis1v framer-1bpinvh`,
+                                      "data-border": !0,
+                                      "data-framer-name": `Button`,
+                                      children: /*#__PURE__*/ a(l.div, {
+                                        className: `framer-1lz67wq`,
+                                        children: /*#__PURE__*/ i(v, {
+                                          className: `framer-dd037c`,
+                                          requiresOverflowVisible: !1,
+                                          svg: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 13.271 12.414" overflow="visible"><path d="M 0 6.207 L 6.207 12.414 L 7.621 11 L 2.828 6.207 L 7.621 1.414 L 6.207 0 Z M 5.65 6.207 L 11.857 12.414 L 13.271 11 L 8.478 6.207 L 13.271 1.414 L 11.857 0 Z" fill="rgb(0,0,0)"></path></svg>`,
+                                          withExternalLayout: !0,
+                                          children: [
+                                            /*#__PURE__*/ a(v, {
+                                              className: `framer-86jonw`,
+                                              requiresOverflowVisible: !1,
+                                              svg: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 7.621 12.414" overflow="visible"><path d="M 0 6.207 L 6.207 12.414 L 7.621 11 L 2.828 6.207 L 7.621 1.414 L 6.207 0 Z" fill="transparent"></path></svg>`,
+                                              withExternalLayout: !0,
+                                            }),
+                                            /*#__PURE__*/ a(v, {
+                                              className: `framer-9448ke`,
+                                              requiresOverflowVisible: !1,
+                                              svg: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 7.621 12.414" overflow="visible"><path d="M 0 6.207 L 6.207 12.414 L 7.621 11 L 2.828 6.207 L 7.621 1.414 L 6.207 0 Z" fill="transparent"></path></svg>`,
+                                              withExternalLayout: !0,
+                                            }),
+                                          ],
+                                        }),
+                                      }),
+                                    }),
+                                  }),
+                                ],
+                              }),
+                          ],
+                        }),
+                        z() &&
+                          /*#__PURE__*/ i(l.div, {
+                            className: `framer-ap43nl hidden-nt5dje hidden-1nirddn hidden-3l7bnq`,
+                            children: [
+                              /*#__PURE__*/ a(l.div, {
+                                className: `framer-jc7wkb`,
+                                children: /*#__PURE__*/ a(C, {
+                                  __fromCanvasComponent: !0,
+                                  children: /*#__PURE__*/ a(r, {
+                                    children: /*#__PURE__*/ a(`h1`, {
+                                      className: `framer-styles-preset-p50exy`,
+                                      "data-styles-preset": `U3NyadGC3`,
+                                      dir: `auto`,
+                                      children: `Enrollments`,
+                                    }),
+                                  }),
+                                  className: `framer-6ywue2`,
+                                  fonts: [`Inter`],
+                                  verticalAlignment: `top`,
+                                  withExternalLayout: !0,
+                                }),
+                              }),
+                              /*#__PURE__*/ a(x, {
+                                href: { webPageId: `Yk0caFFXD` },
+                                motionChild: !0,
+                                nodeId: `bXFmCt2g2`,
+                                openInNewTab: !1,
+                                scopeId: `wcki3OcY_`,
+                                children: /*#__PURE__*/ a(l.a, {
+                                  className: `framer-ysjsoq framer-1bpinvh`,
+                                  "data-border": !0,
+                                  "data-framer-name": `Button`,
+                                  children: /*#__PURE__*/ a(l.div, {
+                                    className: `framer-1bmn193`,
+                                    children: /*#__PURE__*/ i(v, {
+                                      className: `framer-1cybm50`,
+                                      requiresOverflowVisible: !1,
+                                      svg: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 13.271 12.414" overflow="visible"><path d="M 0 6.207 L 6.207 12.414 L 7.621 11 L 2.828 6.207 L 7.621 1.414 L 6.207 0 Z M 5.65 6.207 L 11.857 12.414 L 13.271 11 L 8.478 6.207 L 13.271 1.414 L 11.857 0 Z" fill="rgb(0,0,0)"></path></svg>`,
+                                      withExternalLayout: !0,
+                                      children: [
+                                        /*#__PURE__*/ a(v, {
+                                          className: `framer-1rc25h0`,
+                                          requiresOverflowVisible: !1,
+                                          svg: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 7.621 12.414" overflow="visible"><path d="M 0 6.207 L 6.207 12.414 L 7.621 11 L 2.828 6.207 L 7.621 1.414 L 6.207 0 Z" fill="transparent"></path></svg>`,
+                                          withExternalLayout: !0,
+                                        }),
+                                        /*#__PURE__*/ a(v, {
+                                          className: `framer-1xnvure`,
+                                          requiresOverflowVisible: !1,
+                                          svg: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 7.621 12.414" overflow="visible"><path d="M 0 6.207 L 6.207 12.414 L 7.621 11 L 2.828 6.207 L 7.621 1.414 L 6.207 0 Z" fill="transparent"></path></svg>`,
+                                          withExternalLayout: !0,
+                                        }),
+                                      ],
+                                    }),
+                                  }),
+                                }),
+                              }),
+                            ],
+                          }),
+                      ],
+                    }),
+                  ],
+                }),
+                /*#__PURE__*/ a(`div`, { id: `overlay` }),
+              ],
+            }),
+          })
+        );
+      })),
+      (Ne = [
+        `.framer-ZcVc7.framer-1bpinvh, .framer-ZcVc7 .framer-1bpinvh { display: block; }`,
+        `.framer-ZcVc7.framer-nt5dje { align-content: flex-start; align-items: flex-start; background-color: #fdfbf8; display: flex; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 1440px; }`,
+        `.framer-ZcVc7 .framer-14dlwbn-container { flex: none; height: 100vh; position: sticky; top: 0px; width: auto; z-index: 1; }`,
+        `.framer-ZcVc7 .framer-8i82sf { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px 0px 64px 32px; position: relative; width: 1px; }`,
+        `.framer-ZcVc7 .framer-exru3p { align-content: flex-start; align-items: flex-start; background-color: #fdfbf8; box-shadow: 0px 0.3010936508871964px 0.3010936508871964px -1.25px rgba(0, 0, 0, 0.18), 0px 1.1442666516217286px 1.1442666516217286px -2.5px rgba(0, 0, 0, 0.16), 0px 5px 5px -3.75px rgba(0, 0, 0, 0.06); display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; overflow: visible; padding: 24px 64px 0px 0px; position: sticky; top: 0px; width: 100%; z-index: 3; }`,
+        `.framer-ZcVc7 .framer-1wxkc08 { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: hidden; padding: 0px 0px 8px 16px; position: relative; width: 1px; }`,
+        `.framer-ZcVc7 .framer-1djgb97, .framer-ZcVc7 .framer-6vm7at, .framer-ZcVc7 .framer-6ywue2 { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
+        `.framer-ZcVc7 .framer-95qg58 { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 4px; height: min-content; justify-content: flex-start; overflow: hidden; padding: 0px; position: relative; width: min-content; }`,
+        `.framer-ZcVc7 .framer-1y8unus, .framer-ZcVc7 .framer-6ed7py { flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
+        `.framer-ZcVc7 .framer-1eh109x { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: min-content; }`,
+        `.framer-ZcVc7 .framer-ijfle8 { align-content: center; align-items: center; background-color: #341a00; border-bottom-left-radius: 999px; border-bottom-right-radius: 999px; border-top-left-radius: 999px; border-top-right-radius: 999px; box-shadow: 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06); display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 8px; height: min-content; justify-content: flex-start; overflow: visible; padding: 4px 18px 4px 16px; position: relative; text-decoration: none; width: min-content; }`,
+        `.framer-ZcVc7 .framer-v1cgbz, .framer-ZcVc7 .framer-1lz67wq, .framer-ZcVc7 .framer-1bmn193 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: min-content; }`,
+        `.framer-ZcVc7 .framer-eoch6j, .framer-ZcVc7 .framer-dd037c, .framer-ZcVc7 .framer-1cybm50 { height: 13px; position: relative; width: 14px; }`,
+        `.framer-ZcVc7 .framer-18zy1kv, .framer-ZcVc7 .framer-86jonw, .framer-ZcVc7 .framer-1rc25h0 { height: 13px; left: 0px; position: absolute; top: 0px; width: 8px; }`,
+        `.framer-ZcVc7 .framer-kjbgxi, .framer-ZcVc7 .framer-9448ke, .framer-ZcVc7 .framer-1xnvure { height: 13px; left: 6px; position: absolute; top: 0px; width: 8px; }`,
+        `.framer-ZcVc7 .framer-1vgbq3n { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: center; overflow: visible; padding: 0px 64px 0px 16px; position: relative; width: 100%; }`,
+        `.framer-ZcVc7 .framer-54nn8j { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-ZcVc7 .framer-1y0gm8t, .framer-ZcVc7 .framer-c638hh, .framer-ZcVc7 .framer-1ouj6vd, .framer-ZcVc7 .framer-1s43c80, .framer-ZcVc7 .framer-1f31pj1, .framer-ZcVc7 .framer-f2xksd { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-ZcVc7 .framer-b9wp0x, .framer-ZcVc7 .framer-a2rpbo, .framer-ZcVc7 .framer-1deosv2, .framer-ZcVc7 .framer-2br3vw, .framer-ZcVc7 .framer-1uk6r8h, .framer-ZcVc7 .framer-aeqyiu, .framer-ZcVc7 .framer-1jly1ba, .framer-ZcVc7 .framer-4hadgr, .framer-ZcVc7 .framer-17fn6xk, .framer-ZcVc7 .framer-363flx, .framer-ZcVc7 .framer-11e7b0t, .framer-ZcVc7 .framer-q1xnv7, .framer-ZcVc7 .framer-gix1aq, .framer-ZcVc7 .framer-1sq89ec, .framer-ZcVc7 .framer-1xd7d1y { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-ZcVc7 .framer-1nvxuc1 { --border-bottom-width: 0px; --border-color: #0085a6; --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 3px; align-content: center; align-items: center; border-top-left-radius: 16px; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: center; overflow: var(--overflow-clip-fallback, clip); padding: 24px 0px 24px 24px; position: relative; scroll-margin-top: 220px; width: 100%; will-change: var(--framer-will-change-override, transform); }`,
+        `.framer-ZcVc7 .framer-fhda0q { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-ZcVc7 .framer-n120ts, .framer-ZcVc7 .framer-i3j6gh, .framer-ZcVc7 .framer-rlx6j6, .framer-ZcVc7 .framer-glytjy { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: center; overflow: visible; padding: 0px 0px 4px 0px; position: relative; width: 100%; z-index: 0; }`,
+        `.framer-ZcVc7 .framer-q3dfun, .framer-ZcVc7 .framer-1t2o9vu, .framer-ZcVc7 .framer-13t34xu, .framer-ZcVc7 .framer-1dfyvgt, .framer-ZcVc7 .framer-aa1zor, .framer-ZcVc7 .framer-52a40b, .framer-ZcVc7 .framer-v7ei25, .framer-ZcVc7 .framer-1w4h566, .framer-ZcVc7 .framer-1gkg71c, .framer-ZcVc7 .framer-zg27vj, .framer-ZcVc7 .framer-1h8dzn9, .framer-ZcVc7 .framer-1unzz6m, .framer-ZcVc7 .framer-17s0nxe, .framer-ZcVc7 .framer-1mfmp2l { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; z-index: 0; }`,
+        `.framer-ZcVc7 .framer-1i9ro87, .framer-ZcVc7 .framer-1gsoz4j, .framer-ZcVc7 .framer-1v7w9oy, .framer-ZcVc7 .framer-1mytiia, .framer-ZcVc7 .framer-t3njru { border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; border-top-left-radius: 8px; border-top-right-radius: 8px; flex: none; height: auto; overflow: visible; position: relative; width: 100%; }`,
+        `.framer-ZcVc7 .framer-1w0kn7b { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: center; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 100%; }`,
+        `.framer-ZcVc7 .framer-1ycj9ed { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; position: relative; scroll-margin-top: 150px; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; z-index: 0; }`,
+        `.framer-ZcVc7 .framer-s0qej { --border-bottom-width: 0px; --border-color: #012a87; --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 5px; align-content: center; align-items: center; border-bottom-left-radius: 16px; border-top-left-radius: 16px; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: center; overflow: var(--overflow-clip-fallback, clip); padding: 24px 0px 24px 16px; position: relative; width: 100%; will-change: var(--framer-will-change-override, transform); }`,
+        `.framer-ZcVc7 .framer-12fwxri { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px 0px 4px 0px; position: relative; width: 100%; z-index: 0; }`,
+        `.framer-ZcVc7 .framer-1s2vd8w, .framer-ZcVc7 .framer-rh31x1, .framer-ZcVc7 .framer-1hyfjc, .framer-ZcVc7 .framer-azom93, .framer-ZcVc7 .framer-1xn545n { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: flex-start; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 100%; }`,
+        `.framer-ZcVc7 .framer-12r9z6y, .framer-ZcVc7 .framer-1uezng5, .framer-ZcVc7 .framer-mx9qg3, .framer-ZcVc7 .framer-1pqkt8e, .framer-ZcVc7 .framer-1x5jeej { flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-ZcVc7 .framer-1qr6vfi, .framer-ZcVc7 .framer-1hiamb8, .framer-ZcVc7 .framer-1luhb7t, .framer-ZcVc7 .framer-1khobuv { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-ZcVc7 .framer-ozni4m-container, .framer-ZcVc7 .framer-1h5pzmg-container, .framer-ZcVc7 .framer-m0ymge-container, .framer-ZcVc7 .framer-17ornf-container { flex: 1 0 0px; height: auto; position: relative; width: 1px; }`,
+        `.framer-ZcVc7 .framer-1pjm8yo { --border-bottom-width: 0px; --border-color: #002b84; --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 5px; align-content: center; align-items: center; border-bottom-left-radius: 16px; border-top-left-radius: 16px; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: center; overflow: var(--overflow-clip-fallback, clip); padding: 24px 0px 24px 16px; position: relative; width: 100%; will-change: var(--framer-will-change-override, transform); }`,
+        `.framer-ZcVc7 .framer-6493yz, .framer-ZcVc7 .framer-1oj5x0k { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px 0px 4px 0px; position: relative; width: 100%; z-index: 0; }`,
+        `.framer-ZcVc7 .framer-wuz4jr { --border-bottom-width: 0px; --border-color: #345eaa; --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 5px; align-content: center; align-items: center; border-bottom-left-radius: 16px; border-top-left-radius: 16px; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: center; overflow: var(--overflow-clip-fallback, clip); padding: 24px 0px 24px 16px; position: relative; width: 100%; will-change: var(--framer-will-change-override, transform); }`,
+        `.framer-ZcVc7 .framer-yb8856, .framer-ZcVc7 .framer-rkp30g { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 8px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-ZcVc7 .framer-jzwwqf { flex: none; height: auto; overflow: visible; position: relative; width: 100%; }`,
+        `.framer-ZcVc7 .framer-4ggdf-container { flex: none; height: auto; position: relative; width: 100%; }`,
+        `.framer-ZcVc7 .framer-1jw0vn3, .framer-ZcVc7 .framer-ap43nl { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: flex-start; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: sticky; width: 100%; z-index: 1; }`,
+        `.framer-ZcVc7 .framer-gbshwo, .framer-ZcVc7 .framer-jc7wkb { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: flex-start; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 1px; }`,
+        `.framer-ZcVc7 .framer-wmis1v, .framer-ZcVc7 .framer-ysjsoq { --border-bottom-width: 1px; --border-color: #351a00; --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: center; align-items: center; background-color: #fdfbf9; border-bottom-left-radius: 999px; border-bottom-right-radius: 999px; border-top-left-radius: 999px; border-top-right-radius: 999px; box-shadow: 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06); display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 8px; height: min-content; justify-content: flex-start; overflow: visible; padding: 4px 18px 4px 16px; position: relative; text-decoration: none; width: min-content; }`,
+        ...z,
+        ...Ce,
+        ...A,
+        ...fe,
+        ...k,
+        ...ve,
+        `.framer-ZcVc7[data-border="true"]::after, .framer-ZcVc7 [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; corner-shape: inherit; pointer-events: none; }`,
+        `@media (min-width: 810px) and (max-width: 1239.98px) { .framer-ZcVc7.framer-nt5dje { flex-direction: column; width: 810px; } .framer-ZcVc7 .framer-14dlwbn-container { height: auto; width: 100%; z-index: 2; } .framer-ZcVc7 .framer-8i82sf { flex: none; overflow: hidden; padding: 32px 48px 64px 48px; width: 100%; } .framer-ZcVc7 .framer-1vgbq3n { gap: 0px; order: 1; overflow: hidden; padding: 0px; } .framer-ZcVc7 .framer-1nvxuc1 { padding: 24px 0px 24px 16px; } .framer-ZcVc7 .framer-ap43nl { order: 0; }}`,
+        `@media (min-width: 1240px) and (max-width: 1439.98px) { .framer-ZcVc7.framer-nt5dje { width: 1240px; } .framer-ZcVc7 .framer-54nn8j { gap: 32px; }}`,
+        `@media (max-width: 809.98px) { .framer-ZcVc7.framer-nt5dje { flex-direction: column; width: 390px; } .framer-ZcVc7 .framer-14dlwbn-container { height: auto; width: 100%; z-index: 2; } .framer-ZcVc7 .framer-8i82sf { flex: none; overflow: hidden; padding: 24px 24px 32px 24px; width: 100%; } .framer-ZcVc7 .framer-1vgbq3n { gap: 0px; order: 0; overflow: hidden; padding: 0px; } .framer-ZcVc7 .framer-54nn8j { gap: 16px; order: 1; } .framer-ZcVc7 .framer-1y0gm8t, .framer-ZcVc7 .framer-c638hh, .framer-ZcVc7 .framer-1ouj6vd, .framer-ZcVc7 .framer-1s43c80, .framer-ZcVc7 .framer-1f31pj1, .framer-ZcVc7 .framer-n120ts, .framer-ZcVc7 .framer-i3j6gh { gap: 8px; } .framer-ZcVc7 .framer-1nvxuc1 { gap: 16px; padding: 24px 0px 24px 8px; } .framer-ZcVc7 .framer-fhda0q { gap: 16px; } .framer-ZcVc7 .framer-s0qej, .framer-ZcVc7 .framer-1pjm8yo, .framer-ZcVc7 .framer-wuz4jr { padding: 16px 0px 24px 8px; } .framer-ZcVc7 .framer-1jw0vn3 { order: 0; }}`,
+      ]),
+      ($ = le(Me, Ne, `framer-ZcVc7`)),
+      ($.displayName = `Projects / Medicalnetwork`),
+      ($.defaultProps = { height: 11909, width: 1440 }),
+      g(
+        $,
+        [
+          {
+            explicitInter: !0,
+            fonts: [
+              {
+                cssFamilyName: `Inter`,
+                source: `framer`,
+                style: `normal`,
+                uiFamilyName: `Inter`,
+                unicodeRange: `U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F`,
+                url: `../../assets/fonts/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2`,
+                weight: `400`,
+              },
+              {
+                cssFamilyName: `Inter`,
+                source: `framer`,
+                style: `normal`,
+                uiFamilyName: `Inter`,
+                unicodeRange: `U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116`,
+                url: `../../assets/fonts/EOr0mi4hNtlgWNn9if640EZzXCo.woff2`,
+                weight: `400`,
+              },
+              {
+                cssFamilyName: `Inter`,
+                source: `framer`,
+                style: `normal`,
+                uiFamilyName: `Inter`,
+                unicodeRange: `U+1F00-1FFF`,
+                url: `../../assets/fonts/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2`,
+                weight: `400`,
+              },
+              {
+                cssFamilyName: `Inter`,
+                source: `framer`,
+                style: `normal`,
+                uiFamilyName: `Inter`,
+                unicodeRange: `U+0370-03FF`,
+                url: `../../assets/fonts/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2`,
+                weight: `400`,
+              },
+              {
+                cssFamilyName: `Inter`,
+                source: `framer`,
+                style: `normal`,
+                uiFamilyName: `Inter`,
+                unicodeRange: `U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF`,
+                url: `../../assets/fonts/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2`,
+                weight: `400`,
+              },
+              {
+                cssFamilyName: `Inter`,
+                source: `framer`,
+                style: `normal`,
+                uiFamilyName: `Inter`,
+                unicodeRange: `U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD`,
+                url: `../../assets/fonts/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2`,
+                weight: `400`,
+              },
+              {
+                cssFamilyName: `Inter`,
+                source: `framer`,
+                style: `normal`,
+                uiFamilyName: `Inter`,
+                unicodeRange: `U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB`,
+                url: `../../assets/fonts/b6Y37FthZeALduNqHicBT6FutY.woff2`,
+                weight: `400`,
+              },
+              {
+                cssFamilyName: `Inter`,
+                source: `framer`,
+                style: `normal`,
+                uiFamilyName: `Inter`,
+                unicodeRange: `U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F`,
+                url: `../../assets/fonts/DpPBYI0sL4fYLgAkX8KXOPVt7c.woff2`,
+                weight: `700`,
+              },
+              {
+                cssFamilyName: `Inter`,
+                source: `framer`,
+                style: `normal`,
+                uiFamilyName: `Inter`,
+                unicodeRange: `U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116`,
+                url: `../../assets/fonts/4RAEQdEOrcnDkhHiiCbJOw92Lk.woff2`,
+                weight: `700`,
+              },
+              {
+                cssFamilyName: `Inter`,
+                source: `framer`,
+                style: `normal`,
+                uiFamilyName: `Inter`,
+                unicodeRange: `U+1F00-1FFF`,
+                url: `../../assets/fonts/1K3W8DizY3v4emK8Mb08YHxTbs.woff2`,
+                weight: `700`,
+              },
+              {
+                cssFamilyName: `Inter`,
+                source: `framer`,
+                style: `normal`,
+                uiFamilyName: `Inter`,
+                unicodeRange: `U+0370-03FF`,
+                url: `../../assets/fonts/tUSCtfYVM1I1IchuyCwz9gDdQ.woff2`,
+                weight: `700`,
+              },
+              {
+                cssFamilyName: `Inter`,
+                source: `framer`,
+                style: `normal`,
+                uiFamilyName: `Inter`,
+                unicodeRange: `U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF`,
+                url: `../../assets/fonts/VgYFWiwsAC5OYxAycRXXvhze58.woff2`,
+                weight: `700`,
+              },
+              {
+                cssFamilyName: `Inter`,
+                source: `framer`,
+                style: `normal`,
+                uiFamilyName: `Inter`,
+                unicodeRange: `U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD`,
+                url: `../../assets/fonts/syRNPWzAMIrcJ3wIlPIP43KjQs.woff2`,
+                weight: `700`,
+              },
+              {
+                cssFamilyName: `Inter`,
+                source: `framer`,
+                style: `normal`,
+                uiFamilyName: `Inter`,
+                unicodeRange: `U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB`,
+                url: `../../assets/fonts/GIryZETIX4IFypco5pYZONKhJIo.woff2`,
+                weight: `700`,
+              },
+            ],
+          },
+          ...V,
+          ...H,
+          ...b(ye),
+          ...b(we),
+          ...b(O),
+          ...b(j),
+          ...b(F),
+          ...b(be),
+        ],
+        { supportsExplicitInterCodegen: !0 }
+      ),
+      ($.loader = { load: (e, t) => h([() => m(I, {}, t)], t) }),
+      (Pe = {
+        exports: {
+          Props: { type: `tsType`, annotations: { framerContractVersion: `1` } },
+          default: {
+            type: `reactComponent`,
+            name: `Framerwcki3OcY_`,
+            slots: [],
+            annotations: {
+              framerIntrinsicWidth: `1440`,
+              framerCanvasComponentVariantDetails: `{"propertyName":"variant","data":{"default":{"layout":["fixed","auto"]},"DEJr44GVb":{"layout":["fixed","auto"]},"CpJoOsDxW":{"layout":["fixed","auto"]},"P1J7WvMcG":{"layout":["fixed","auto"]}}}`,
+              framerIntrinsicHeight: `11909`,
+              framerResponsiveScreen: `true`,
+              framerComponentViewportWidth: `true`,
+              framerColorSyntax: `true`,
+              framerAcceptsLayoutTemplate: `false`,
+              framerDisplayContentsDiv: `false`,
+              framerLayoutTemplateFlowEffect: `true`,
+              framerAutoSizeImages: `true`,
+              framerContractVersion: `1`,
+              framerScrollSections: `{"qGiz83ySR":{"pattern":":qGiz83ySR","name":"research"},"E_6yIy1Lz":{"pattern":":E_6yIy1Lz","name":"prototype"}}`,
+              framerImmutableVariables: `true`,
+            },
+          },
+          queryParamNames: { type: `variable`, annotations: { framerContractVersion: `1` } },
+          __FramerMetadata__: { type: `variable` },
+        },
+      }));
+  }))();
+}
+Fe();
+export { Pe as __FramerMetadata__, $ as default, K as queryParamNames };
+//# sourceMappingURL=qZhdh5dGTAyqXbhVeIPqg3yG_5uSWTuW43MCSL-_Tjc.D1QW2cm0.mjs.map

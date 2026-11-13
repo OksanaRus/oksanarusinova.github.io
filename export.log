@@ -1,179 +1,177 @@
-[03:58:57] [info] Source   : [4mhttps://oksanarusinova.framer.website/[24m
-[03:58:57] [info] Output   : [38;2;250;178;131m/Users/oksanarusinova/Desktop/framer-clean-output[39m
-[03:58:57] [info] Platform : [38;2;250;178;131mFramer[39m
-[03:58:57] [info] DPR      : [38;2;250;178;131m1[39m
-[03:58:57] [info] Subpages : [38;2;127;216;143menabled[39m
-[03:58:57] [log] Output directory structure created
-[03:58:57] [log] Fetching SSR HTML from https://oksanarusinova.framer.website/
-[03:58:58] [ok] SSR HTML fetched (197.2 KB)
-[03:58:58] [log] Launching headless Chromium...
-[03:59:02] [ok] Chromium launched
-[03:59:02] [log] Stealth hardening applied (Chrome 148.0.7778.97)
-[03:59:02] [log] Viewport set to 1440x900 at 1x DPR
-[03:59:02] [log] Blocking 8 tracking domains:
-[03:59:02] [log]   - sentry.io
-[03:59:02] [log]   - www.googletagmanager.com
-[03:59:02] [log]   - connect.facebook.net
-[03:59:02] [log]   - stats.g.doubleclick.net
-[03:59:02] [log]   - google-analytics.com
-[03:59:02] [log]   - events.framer.com
-[03:59:02] [log]   - api.framer.com
-[03:59:02] [log]   - collect.frameranalytics.com
-[03:59:02] [log] Network interception enabled
-[03:59:02] [info] Navigating to https://oksanarusinova.framer.website/
-[03:59:03] [ok] Document loaded; waiting for page content and resources
-[03:59:03] [log] Intercepted 0 resources, blocked 0 tracking requests, skipped 0 platform assets
-[03:59:03] [log] Checking DOM-based platform detection...
-[03:59:04] [log] Hydration content found: #main
-[03:59:12] [log] Waiting for font layout and response bodies
-[03:59:12] [log] Resources settled
-[03:59:12] [log] Captured HTML and CSSOM (202.2 KB)
-[03:59:12] [ok] Captured 35 network resources total
-[03:59:12] [log]   CSS: 0 | JS: 22 | Images: 7 | Fonts: 6
-[03:59:12] [log] Scanning page for internal links...
-[03:59:12] [log] Found 5 sub-page links on the home page
-[03:59:12] [log]   Navigating to sub-page: https://oksanarusinova.framer.website/portfolio
-[03:59:14] [log] Hydration content found: #main
-[03:59:18] [log] Waiting for font layout and response bodies
-[03:59:18] [log] Resources settled
-[03:59:18] [log]   Sub-page fetched: 225.0 KB
-[03:59:18] [log]   Saved: subpages/portfolio.html
-[03:59:18] [log]   Discovered 2 new link(s) on portfolio
-[03:59:18] [log]   Navigating to sub-page: https://oksanarusinova.framer.website/ru/home
-[03:59:19] [log] Hydration content found: #main
-[03:59:30] [log] Network idle timeout reached (continuing anyway)
-[03:59:30] [log] Waiting for font layout and response bodies
-[03:59:30] [log] Resources settled
-[03:59:30] [log]   Sub-page fetched: 201.3 KB
-[03:59:30] [log]   Saved: subpages/ru_home.html
-[03:59:30] [log]   Discovered 4 new link(s) on ru_home
-[03:59:30] [log]   Navigating to sub-page: https://oksanarusinova.framer.website/portfolio/enrollments
-[03:59:31] [log] Hydration content found: #main
-[03:59:42] [log] Network idle timeout reached (continuing anyway)
-[03:59:42] [log] Waiting for font layout and response bodies
-[03:59:42] [log] Resources settled
-[03:59:42] [log]   Sub-page fetched: 115.2 KB
-[03:59:42] [log]   Saved: subpages/portfolio_enrollments.html
-[03:59:42] [log]   Navigating to sub-page: https://oksanarusinova.framer.website/portfolio/connecthub
-[03:59:43] [log] Hydration content found: #main
-[03:59:53] [log] Network idle timeout reached (continuing anyway)
-[03:59:53] [log] Waiting for font layout and response bodies
-[03:59:53] [log] Resources settled
-[03:59:53] [log]   Sub-page fetched: 116.0 KB
-[03:59:53] [log]   Saved: subpages/portfolio_connecthub.html
-[03:59:53] [log]   Navigating to sub-page: https://oksanarusinova.framer.website/portfolio/mappingtool
-[03:59:54] [log] Hydration content found: #main
-[04:00:05] [log] Network idle timeout reached (continuing anyway)
-[04:00:05] [log] Waiting for font layout and response bodies
-[04:00:05] [log] Resources settled
-[04:00:05] [log]   Sub-page fetched: 116.2 KB
-[04:00:05] [log]   Saved: subpages/portfolio_mappingtool.html
-[04:00:05] [log]   Navigating to sub-page: https://oksanarusinova.framer.website/portfolio/rts
-[04:00:06] [log] Hydration content found: #main
-[04:00:16] [log] Network idle timeout reached (continuing anyway)
-[04:00:16] [log] Waiting for font layout and response bodies
-[04:00:16] [log] Resources settled
-[04:00:16] [log]   Sub-page fetched: 109.8 KB
-[04:00:16] [log]   Saved: subpages/portfolio_rts.html
-[04:00:16] [log]   Navigating to sub-page: https://oksanarusinova.framer.website/portfolio/dfd
-[04:00:18] [log] Hydration content found: #main
-[04:00:28] [log] Network idle timeout reached (continuing anyway)
-[04:00:28] [log] Waiting for font layout and response bodies
-[04:00:28] [log] Resources settled
-[04:00:28] [log]   Sub-page fetched: 110.9 KB
-[04:00:28] [log]   Saved: subpages/portfolio_dfd.html
-[04:00:28] [log]   Navigating to sub-page: https://oksanarusinova.framer.website/ru/portfolio-2
-[04:00:29] [log] Hydration content found: #main
-[04:00:40] [log] Network idle timeout reached (continuing anyway)
-[04:00:40] [log] Waiting for font layout and response bodies
-[04:00:40] [log] Resources settled
-[04:00:40] [log]   Sub-page fetched: 239.3 KB
-[04:00:40] [log]   Saved: subpages/ru_portfolio-2.html
-[04:00:40] [log]   Discovered 2 new link(s) on ru_portfolio-2
-[04:00:40] [log]   Navigating to sub-page: https://oksanarusinova.framer.website/ru/portfolio-2/enrollments
-[04:00:41] [log] Hydration content found: #main
-[04:00:54] [log] Network idle timeout reached (continuing anyway)
-[04:00:54] [log] Waiting for font layout and response bodies
-[04:01:04] [log] Response body timeout; remaining assets will use the downloader
-[04:01:04] [log] Resources settled
-[04:01:14] [log] Response body timeout; remaining assets will use the downloader
-[04:01:14] [log]   Sub-page fetched: 251.7 KB
-[04:01:14] [log]   Saved: subpages/ru_portfolio-2_enrollments.html
-[04:01:14] [log]   Navigating to sub-page: https://oksanarusinova.framer.website/ru/portfolio-2/connecthub
-[04:01:15] [log] Hydration content found: #main
-[04:01:27] [log] Network idle timeout reached (continuing anyway)
-[04:01:27] [log] Waiting for font layout and response bodies
-[04:01:37] [log] Response body timeout; remaining assets will use the downloader
-[04:01:37] [log] Resources settled
-[04:01:47] [log] Response body timeout; remaining assets will use the downloader
-[04:01:47] [log]   Sub-page fetched: 231.9 KB
-[04:01:47] [log]   Saved: subpages/ru_portfolio-2_connecthub.html
-[04:01:47] [log]   Navigating to sub-page: https://oksanarusinova.framer.website/ru/portfolio-2/mappingtool
-[04:01:48] [log] Hydration content found: #main
-[04:02:01] [log] Network idle timeout reached (continuing anyway)
-[04:02:01] [log] Waiting for font layout and response bodies
-[04:02:11] [log] Response body timeout; remaining assets will use the downloader
-[04:02:11] [log] Resources settled
-[04:02:21] [log] Response body timeout; remaining assets will use the downloader
-[04:02:21] [log]   Sub-page fetched: 229.2 KB
-[04:02:21] [log]   Saved: subpages/ru_portfolio-2_mappingtool.html
-[04:02:21] [log]   Discovered 1 new link(s) on ru_portfolio-2_mappingtool
-[04:02:21] [log]   Navigating to sub-page: https://oksanarusinova.framer.website/ru/portfolio-2/rts
-[04:02:22] [log] Hydration content found: #main
-[04:02:33] [log] Network idle timeout reached (continuing anyway)
-[04:02:33] [log] Waiting for font layout and response bodies
-[04:02:43] [log] Response body timeout; remaining assets will use the downloader
-[04:02:43] [log] Resources settled
-[04:02:53] [log] Response body timeout; remaining assets will use the downloader
-[04:02:53] [log]   Sub-page fetched: 225.7 KB
-[04:02:53] [log]   Saved: subpages/ru_portfolio-2_rts.html
-[04:02:53] [log]   Navigating to sub-page: https://oksanarusinova.framer.website/ru/portfolio-2/dfd
-[04:02:54] [log] Hydration content found: #main
-[04:03:05] [log] Network idle timeout reached (continuing anyway)
-[04:03:05] [log] Waiting for font layout and response bodies
-[04:03:15] [log] Response body timeout; remaining assets will use the downloader
-[04:03:15] [log] Resources settled
-[04:03:25] [log] Response body timeout; remaining assets will use the downloader
-[04:03:25] [log]   Sub-page fetched: 207.3 KB
-[04:03:25] [log]   Saved: subpages/ru_portfolio-2_dfd.html
-[04:03:25] [log]   Discovered 1 new link(s) on ru_portfolio-2_dfd
-[04:03:25] [log]   Navigating to sub-page: https://oksanarusinova.framer.website/old/mappingtool-2
-[04:03:27] [log] Hydration content found: #main
-[04:03:39] [log] Network idle timeout reached (continuing anyway)
-[04:03:39] [log] Waiting for font layout and response bodies
-[04:03:49] [log] Response body timeout; remaining assets will use the downloader
-[04:03:49] [log] Resources settled
-[04:03:59] [log] Response body timeout; remaining assets will use the downloader
-[04:03:59] [log]   Sub-page fetched: 216.7 KB
-[04:03:59] [log]   Saved: subpages/old_mappingtool-2.html
-[04:03:59] [log]   Navigating to sub-page: https://oksanarusinova.framer.website/old/dfd-2
-[04:04:00] [log] Hydration content found: #main
-[04:04:11] [log] Network idle timeout reached (continuing anyway)
-[04:04:11] [log] Waiting for font layout and response bodies
-[04:04:21] [log] Response body timeout; remaining assets will use the downloader
-[04:04:21] [log] Resources settled
-[04:04:31] [log] Response body timeout; remaining assets will use the downloader
-[04:04:31] [log]   Sub-page fetched: 188.5 KB
-[04:04:31] [log]   Saved: subpages/old_dfd-2.html
-[04:04:31] [ok] Sub-pages crawled: 15
-[04:04:32] [log] Browser closed
-[04:04:32] [ok] Queued 151 resource(s) declared in HTML but never requested
-[04:04:32] [log] Starting download of 274 assets and their CSS/HTML dependencies
-[04:06:08] [warn] Download failed: https://framerusercontent.com/images/4hgV6GJDwt9ZETiLnlYoGjbk8Oc.png?width=14342&height=6236 - Asset download timeout
-[04:06:08] [warn] Downloads complete: 273 succeeded, 122 from cache, 1 failed
-[04:06:12] [ok] Lazy-loaded chunks resolved: 7
-[04:06:12] [log] Starting HTML post-processing...
-[04:06:12] [log] HTML size: 202.2 KB
-[04:06:12] [ok] Index HTML pipeline complete
-[04:06:14] [log] Rewrote URLs in 30 JS/CSS files
-[04:06:14] [ok] Sub-pages linked to local assets: 15/15
-[04:06:14] [warn] Rewrite pattern matched nothing: /\(function\(\)\{[\w$]+&&[\w$]+\(\(\)=>\{[\s\S]{0,200}?__framer-badge-container[\s\S]{0,300}?\}\)\}\)\(\)/g
-[04:06:14] [ok] Captured asset URLs rewritten to local paths
-[04:06:19] [ok] Formatted 74/74 JS/MJS files
-[04:06:19] [log] Writing index.html (247.2 KB)...
-[04:06:19] [ok] index.html written
-[04:06:19] [log] serve.js written
-[04:06:19] [log] package.json written for serve.js
-[04:06:19] [warn] 1 asset(s) could not be saved. See export-report.json.
-[04:06:19] [ok] Output build complete
-[04:06:19] [ok] Export complete!
+[05:44:34] [info] Source   : [4mhttps://oksanarusinova.framer.website/[24m
+[05:44:34] [info] Output   : [38;2;250;178;131m/Users/oksanarusinova/Desktop/framer-november-export[39m
+[05:44:34] [info] Platform : [38;2;250;178;131mFramer[39m
+[05:44:34] [info] DPR      : [38;2;250;178;131m1[39m
+[05:44:34] [info] Subpages : [38;2;127;216;143menabled[39m
+[05:44:34] [log] Output directory structure created
+[05:44:34] [log] Fetching SSR HTML from https://oksanarusinova.framer.website/
+[05:44:36] [ok] SSR HTML fetched (180.9 KB)
+[05:44:36] [log] Launching headless Chromium...
+[05:44:37] [ok] Chromium launched
+[05:44:37] [log] Stealth hardening applied (Chrome 148.0.7778.97)
+[05:44:37] [log] Viewport set to 1440x900 at 1x DPR
+[05:44:37] [log] Blocking 8 tracking domains:
+[05:44:37] [log]   - sentry.io
+[05:44:37] [log]   - www.googletagmanager.com
+[05:44:37] [log]   - connect.facebook.net
+[05:44:37] [log]   - stats.g.doubleclick.net
+[05:44:37] [log]   - google-analytics.com
+[05:44:37] [log]   - events.framer.com
+[05:44:37] [log]   - api.framer.com
+[05:44:37] [log]   - collect.frameranalytics.com
+[05:44:37] [log] Network interception enabled
+[05:44:37] [info] Navigating to https://oksanarusinova.framer.website/
+[05:44:38] [ok] Document loaded; waiting for page content and resources
+[05:44:38] [log] Intercepted 0 resources, blocked 0 tracking requests, skipped 0 platform assets
+[05:44:38] [log] Checking DOM-based platform detection...
+[05:44:39] [log] Hydration content found: #main
+[05:44:48] [log] Waiting for font layout and response bodies
+[05:44:48] [log] Resources settled
+[05:44:48] [log] Captured HTML and CSSOM (187.5 KB)
+[05:44:48] [ok] Captured 36 network resources total
+[05:44:48] [log]   CSS: 0 | JS: 23 | Images: 7 | Fonts: 6
+[05:44:48] [log] Scanning page for internal links...
+[05:44:48] [log] Found 5 sub-page links on the home page
+[05:44:48] [log]   Navigating to sub-page: https://oksanarusinova.framer.website/portfolio
+[05:44:49] [log] Hydration content found: #main
+[05:44:53] [log] Waiting for font layout and response bodies
+[05:44:53] [log] Resources settled
+[05:44:53] [log]   Sub-page fetched: 214.6 KB
+[05:44:53] [log]   Saved: subpages/portfolio.html
+[05:44:53] [log]   Discovered 2 new link(s) on portfolio
+[05:44:53] [log]   Navigating to sub-page: https://oksanarusinova.framer.website/ru/home
+[05:44:54] [log] Hydration content found: #main
+[05:44:59] [log] Waiting for font layout and response bodies
+[05:44:59] [log] Resources settled
+[05:44:59] [log]   Sub-page fetched: 187.2 KB
+[05:44:59] [log]   Saved: subpages/ru_home.html
+[05:44:59] [log]   Discovered 1 new link(s) on ru_home
+[05:44:59] [log]   Navigating to sub-page: https://oksanarusinova.framer.website/portfolio/enrollments
+[05:45:00] [log] Hydration content found: #main
+[05:45:04] [log] Waiting for font layout and response bodies
+[05:45:04] [log] Resources settled
+[05:45:04] [log]   Sub-page fetched: 112.9 KB
+[05:45:04] [log]   Saved: subpages/portfolio_enrollments.html
+[05:45:04] [log]   Navigating to sub-page: https://oksanarusinova.framer.website/portfolio/mappingtool
+[05:45:07] [log] Hydration content found: #main
+[05:45:17] [log] Network idle timeout reached (continuing anyway)
+[05:45:17] [log] Waiting for font layout and response bodies
+[05:45:17] [log] Resources settled
+[05:45:17] [log]   Sub-page fetched: 113.8 KB
+[05:45:17] [log]   Saved: subpages/portfolio_mappingtool.html
+[05:45:17] [log]   Navigating to sub-page: https://oksanarusinova.framer.website/portfolio/connecthub
+[05:45:18] [log] Hydration content found: #main
+[05:45:28] [log] Network idle timeout reached (continuing anyway)
+[05:45:28] [log] Waiting for font layout and response bodies
+[05:45:28] [log] Resources settled
+[05:45:29] [log]   Sub-page fetched: 117.0 KB
+[05:45:29] [log]   Saved: subpages/portfolio_connecthub.html
+[05:45:29] [log]   Navigating to sub-page: https://oksanarusinova.framer.website/portfolio/rts
+[05:45:29] [log] Hydration content found: #main
+[05:45:40] [log] Network idle timeout reached (continuing anyway)
+[05:45:40] [log] Waiting for font layout and response bodies
+[05:45:40] [log] Resources settled
+[05:45:40] [log]   Sub-page fetched: 107.5 KB
+[05:45:40] [log]   Saved: subpages/portfolio_rts.html
+[05:45:40] [log]   Navigating to sub-page: https://oksanarusinova.framer.website/portfolio/dfd
+[05:45:41] [log] Hydration content found: #main
+[05:45:51] [log] Network idle timeout reached (continuing anyway)
+[05:45:51] [log] Waiting for font layout and response bodies
+[05:45:51] [log] Resources settled
+[05:45:51] [log]   Sub-page fetched: 108.6 KB
+[05:45:51] [log]   Saved: subpages/portfolio_dfd.html
+[05:45:51] [log]   Navigating to sub-page: https://oksanarusinova.framer.website/ru/portfolio-2
+[05:45:53] [log] Hydration content found: #main
+[05:46:03] [log] Network idle timeout reached (continuing anyway)
+[05:46:03] [log] Waiting for font layout and response bodies
+[05:46:03] [log] Resources settled
+[05:46:03] [log]   Sub-page fetched: 241.0 KB
+[05:46:03] [log]   Saved: subpages/ru_portfolio-2.html
+[05:46:03] [log]   Discovered 5 new link(s) on ru_portfolio-2
+[05:46:03] [log]   Navigating to sub-page: https://oksanarusinova.framer.website/ru/portfolio-2/enrollments
+[05:46:05] [log] Hydration content found: #main
+[05:46:17] [log] Network idle timeout reached (continuing anyway)
+[05:46:17] [log] Waiting for font layout and response bodies
+[05:46:27] [log] Response body timeout; remaining assets will use the downloader
+[05:46:27] [log] Resources settled
+[05:46:37] [log] Response body timeout; remaining assets will use the downloader
+[05:46:37] [log]   Sub-page fetched: 240.1 KB
+[05:46:37] [log]   Saved: subpages/ru_portfolio-2_enrollments.html
+[05:46:37] [log]   Navigating to sub-page: https://oksanarusinova.framer.website/ru/portfolio-2/mappingtool
+[05:46:39] [log] Hydration content found: #main
+[05:46:51] [log] Network idle timeout reached (continuing anyway)
+[05:46:51] [log] Waiting for font layout and response bodies
+[05:47:01] [log] Response body timeout; remaining assets will use the downloader
+[05:47:01] [log] Resources settled
+[05:47:11] [log] Response body timeout; remaining assets will use the downloader
+[05:47:11] [log]   Sub-page fetched: 218.7 KB
+[05:47:11] [log]   Saved: subpages/ru_portfolio-2_mappingtool.html
+[05:47:11] [log]   Discovered 1 new link(s) on ru_portfolio-2_mappingtool
+[05:47:11] [log]   Navigating to sub-page: https://oksanarusinova.framer.website/ru/portfolio-2/rts
+[05:47:12] [log] Hydration content found: #main
+[05:47:23] [log] Network idle timeout reached (continuing anyway)
+[05:47:23] [log] Waiting for font layout and response bodies
+[05:47:33] [log] Response body timeout; remaining assets will use the downloader
+[05:47:33] [log] Resources settled
+[05:47:43] [log] Response body timeout; remaining assets will use the downloader
+[05:47:43] [log]   Sub-page fetched: 215.3 KB
+[05:47:43] [log]   Saved: subpages/ru_portfolio-2_rts.html
+[05:47:43] [log]   Navigating to sub-page: https://oksanarusinova.framer.website/ru/portfolio-2/connecthub
+[05:47:45] [log] Hydration content found: #main
+[05:47:56] [log] Network idle timeout reached (continuing anyway)
+[05:47:56] [log] Waiting for font layout and response bodies
+[05:48:06] [log] Response body timeout; remaining assets will use the downloader
+[05:48:06] [log] Resources settled
+[05:48:16] [log] Response body timeout; remaining assets will use the downloader
+[05:48:17] [log]   Sub-page fetched: 221.4 KB
+[05:48:17] [log]   Saved: subpages/ru_portfolio-2_connecthub.html
+[05:48:17] [log]   Navigating to sub-page: https://oksanarusinova.framer.website/ru/portfolio-2/dfd
+[05:48:18] [log] Hydration content found: #main
+[05:48:29] [log] Network idle timeout reached (continuing anyway)
+[05:48:29] [log] Waiting for font layout and response bodies
+[05:48:39] [log] Response body timeout; remaining assets will use the downloader
+[05:48:39] [log] Resources settled
+[05:48:49] [log] Response body timeout; remaining assets will use the downloader
+[05:48:49] [log]   Sub-page fetched: 196.9 KB
+[05:48:49] [log]   Saved: subpages/ru_portfolio-2_dfd.html
+[05:48:49] [log]   Discovered 1 new link(s) on ru_portfolio-2_dfd
+[05:48:49] [log]   Navigating to sub-page: https://oksanarusinova.framer.website/old/mappingtool-2
+[05:48:50] [log] Hydration content found: #main
+[05:49:02] [log] Network idle timeout reached (continuing anyway)
+[05:49:02] [log] Waiting for font layout and response bodies
+[05:49:12] [log] Response body timeout; remaining assets will use the downloader
+[05:49:12] [log] Resources settled
+[05:49:22] [log] Response body timeout; remaining assets will use the downloader
+[05:49:22] [log]   Sub-page fetched: 139.4 KB
+[05:49:22] [log]   Saved: subpages/old_mappingtool-2.html
+[05:49:22] [log]   Navigating to sub-page: https://oksanarusinova.framer.website/old/dfd-2
+[05:49:23] [log] Hydration content found: #main
+[05:49:34] [log] Network idle timeout reached (continuing anyway)
+[05:49:34] [log] Waiting for font layout and response bodies
+[05:49:44] [log] Response body timeout; remaining assets will use the downloader
+[05:49:44] [log] Resources settled
+[05:49:54] [log] Response body timeout; remaining assets will use the downloader
+[05:49:54] [log]   Sub-page fetched: 134.7 KB
+[05:49:54] [log]   Saved: subpages/old_dfd-2.html
+[05:49:54] [ok] Sub-pages crawled: 15
+[05:49:55] [log] Browser closed
+[05:49:55] [ok] Queued 151 resource(s) declared in HTML but never requested
+[05:49:55] [log] Starting download of 277 assets and their CSS/HTML dependencies
+[05:51:31] [warn] Download failed: https://framerusercontent.com/images/4hgV6GJDwt9ZETiLnlYoGjbk8Oc.png?width=14342&height=6236 - Asset download timeout
+[05:51:31] [warn] Downloads complete: 276 succeeded, 125 from cache, 1 failed
+[05:51:37] [ok] Lazy-loaded chunks resolved: 10
+[05:51:37] [log] Starting HTML post-processing...
+[05:51:37] [log] HTML size: 187.5 KB
+[05:51:37] [ok] Index HTML pipeline complete
+[05:51:39] [log] Rewrote URLs in 34 JS/CSS files
+[05:51:40] [ok] Sub-pages linked to local assets: 15/15
+[05:51:40] [warn] Rewrite pattern matched nothing: /\(function\(\)\{[\w$]+&&[\w$]+\(\(\)=>\{[\s\S]{0,200}?__framer-badge-container[\s\S]{0,300}?\}\)\}\)\(\)/g
+[05:51:40] [ok] Captured asset URLs rewritten to local paths
+[05:51:49] [ok] Formatted 67/67 JS/MJS files
+[05:51:49] [log] Writing index.html (231.7 KB)...
+[05:51:49] [ok] index.html written
+[05:51:49] [log] serve.js written
+[05:51:49] [log] package.json written for serve.js
+[05:51:49] [warn] 1 asset(s) could not be saved. See export-report.json.
+[05:51:49] [ok] Output build complete
+[05:51:49] [ok] Export complete!
